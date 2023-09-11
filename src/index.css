@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&family=Oswald:wght@300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Oswald', sans-serif;
+}
+
+.hero-bg {
+  background-image: linear-gradient(to right, #f8f8f8fe, #9e9e444b),
+    url('/bible.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+.titlegradient {
+  background-image: linear-gradient(to right, #f8f8f8fe, #9e9e444b);
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari support */
+
+  color: transparent;
+  font-weight: 600;
+}
+
+.homegradient {
+  background-image: linear-gradient(to right, #a79e8141, #b4b09979, #dad8ce);
+}
+
+p {
+  text-align: justify;
+  margin-top: 15px;
+}
