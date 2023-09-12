@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&family=Oswald:wght@300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .hero-bg {
@@ -30,6 +28,10 @@ body {
 
 .homegradient {
   background-image: linear-gradient(to right, #a79e8141, #b4b09979, #dad8ce);
+}
+
+h1 {
+  font-weight: 500;
 }
 
 p {

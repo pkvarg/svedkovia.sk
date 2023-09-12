@@ -15,7 +15,7 @@ const Footer = () => {
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
           </a>
-          <p>|</p>
+          <p className='mb-4'>|</p>
           <a href='https://sk.bereanbeacon.org' target='_blank'>
             sk.bereanbeacon.org
           </a>
