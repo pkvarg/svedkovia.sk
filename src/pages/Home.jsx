@@ -1,7 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header'
+import CookieConsent from 'react-cookie-consent'
+import axios from 'axios'
 
 const Home = () => {
+  const [cookieAccept, setCookieAccept] = useState(false)
+
+  const config = {
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  }
+
+  const increaseVisitorsCount = async () => {
+    const { data } = await axios.put(
+      // `https://pictusweb.online/api/visitors/svedkovia/increase`,
+      `http://localhost:2000/api/visitors/svedkovia/increase`,
+      config
+    )
+  }
+
   return (
     <>
       <header className='hero-bg h-[100vh]'>
@@ -227,6 +245,28 @@ const Home = () => {
           ovplyvňuje v jeho správaní a postojoch.
         </p>
       </main>
+      {/* <CookieConsent
+        location='bottom'
+        style={{
+          background: '#a69f83',
+          color: '#492700',
+          fontSize: '22.5px',
+          textAlign: 'justify',
+        }}
+        buttonStyle={{
+          background: '#492700',
+          color: '#fff',
+          fontSize: '22.5px',
+        }}
+        buttonText='Pokračovať'
+        expires={365}
+        onAccept={() => {
+          setCookieAccept(true)
+          increaseVisitorsCount()
+        }}
+      >
+        Táto stránka nezhromažďuje žiadne údaje
+      </CookieConsent> */}
     </>
   )
 }
