@@ -15,15 +15,8 @@ const Footer = () => {
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
           </a>
-          <p className='mb-4'>|</p>
-          <a href='https://sk.bereanbeacon.org' target='_blank'>
-            sk.bereanbeacon.org
-          </a>
-          {/* <a href='https://svedkovia.sk' target='_blank'>
-            svedkovia.sk
-          </a> */}
         </div>
-        <div className='flex justify-center text-[#484848] mt-2'>
+        <div className='flex justify-center text-[#8d8d8d] mt-2'>
           <a href='https://pictusweb.sk'>
             &#60;&#47;&#62; PICTUSWEB development
           </a>
