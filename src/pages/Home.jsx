@@ -105,7 +105,7 @@ const Home = () => {
           <span className='text-[20px]'> Matúš 24:14 </span>
           Keďže celý svet nepokryli ani tam prítomní apoštoli, ani Pavol
           apoštol, ani ostatní evanjelisti Novej Zmluvy, tento príkaz sa týka
-          všetkých, ktorí v Neho veria.
+          všetkých, ktorí v Neho veria, keďže koniec ešte neprišiel.
         </p>
         <p>
           Čo to znamená byť svedkom?
@@ -244,7 +244,55 @@ const Home = () => {
           skutočnosť, že On prebýva v živote veriaceho a zvnútra navonok Ho
           ovplyvňuje v jeho správaní a postojoch.
         </p>
+
+        <h1 className='text-brown3 text-center text-[35px] p-8'>
+          Božie Slovo ti udá správny smer
+        </h1>
+        <p>
+          <span className='italic'>
+            {' '}
+            Saul, Saul, prečo ma prenasleduješ? A on povedal: Kto si, Pane?
+            Odpovedal mu: Ja som Ježiš, ktorého ty prenasleduješ.{' '}
+          </span>
+          <span className='text-[20px]'> Skutky apoštolov 9:4-5 </span>
+          Saul prenasledoval veriacich, no Pán Ježiš mu hovorí, že prenasleduje
+          Jeho. Pán Ježiš sa tu priznával ku kresťanom. Čo ich spájalo?
+          <span className='italic'>
+            {' '}
+            Pane, od mnohých som počul o tom mužovi, koľko zlého narobil Tvojim
+            svätým v Jeruzaleme; aj tu má moc od veľkňazov, aby poviazal
+            všetkých, ktorí vzývajú Tvoje meno.{' '}
+          </span>
+          <span className='text-[20px]'> Skutky apoštolov 9:13-14 </span>
+          Spájalo ich to, že kresťania vzývali, teda uctievali meno Pána Ježiša.
+          Kresťania už v prvom storočí za to platili životom. Uctievaš aj ty
+          <span className='font-bold'> Jeho Meno? </span>
+        </p>
+        <p>
+          <span className='italic'>
+            {' '}
+            Riekol mu Pán: Len choď, lebo on mi je vyvolenou nádobou, aby niesol
+            moje meno pred pohanov, aj pred kráľov a pred synov izraelských.
+          </span>
+          <span className='text-[20px]'> Skutky apoštolov 9:15 </span>
+
+          <span className='italic'>
+            {' '}
+            Odišiel teda Ananiáš a vojdúc do toho domu, položil ruky na neho a
+            povedal mu: Brat Saul, Pán Ježiš, ktorý sa ti ukázal na ceste, po
+            ktorej si prišiel, poslal ma, aby si zase videl a bol naplnený
+            Duchom Svätým.
+          </span>
+          <span className='text-[20px]'> Skutky apoštolov 9:17 </span>
+          <span className='font-bold'>
+            {' '}
+            Nesieš aj ty pred pohanov Jeho Meno?{' '}
+          </span>
+        </p>
       </main>
+
+      <span className='italic'></span>
+      <span className='text-[20px]'></span>
       {/* <CookieConsent
         location='bottom'
         style={{
