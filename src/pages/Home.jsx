@@ -24,7 +24,7 @@ const Home = () => {
     <>
       <header className='hero-bg h-[100vh]'>
         <Header />
-        <h1 className='text-[45px] text-brown3 text-center pt-[50%] lg:pt-[5%]'>
+        <h1 className='text-[45px] text-brown3 text-center pt-[20%] lg:pt-[5%]'>
           Svedok je ten, kto mal osobnú skúsenosť a o nej vypovedá
         </h1>
         <h2 className='text-center text-[35px]'>
