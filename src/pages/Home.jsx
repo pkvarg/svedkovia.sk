@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Header from '../components/Header'
+import HeaderHome from '../components/HeaderHome'
 import CookieConsent from 'react-cookie-consent'
 import axios from 'axios'
 
@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       <header className='hero-bg h-[100vh]'>
-        <Header />
+        <HeaderHome />
         <h1 className='text-[45px] text-brown3 text-center pt-[20%] lg:pt-[5%]'>
           Svedok je ten, kto mal osobnú skúsenosť a o nej vypovedá
         </h1>
