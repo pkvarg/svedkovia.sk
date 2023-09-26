@@ -296,15 +296,16 @@ const Home = () => {
       {/* <CookieConsent
         location='bottom'
         style={{
-          background: '#a69f83',
-          color: '#492700',
-          fontSize: '22.5px',
+          background: '#492700',
+          color: '#ffffff',
+          fontSize: '18px',
           textAlign: 'justify',
         }}
         buttonStyle={{
-          background: '#492700',
-          color: '#fff',
-          fontSize: '22.5px',
+          background: '#dddcd1',
+          color: '#492700',
+          fontSize: '20px',
+          padding: '2.5px 5px',
         }}
         buttonText='Pokračovať'
         expires={365}

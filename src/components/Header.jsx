@@ -4,10 +4,10 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <header className='bg-transparent'>
+    <header className='homegradient'>
       <nav className='w-full text-white nav-font'>
         <div className='justify-between px-4 mx-auto md:items-center md:flex md:px-8'>
-          <div className='mb-0 lg:mb-2'>
+          <div className='mb-0'>
             <div className='flex items-center justify-between py-3 md:py-5 md:block'>
               <a className='text-[25px] font-medium text-brown3' href='/'>
                 Svedkovia
@@ -56,38 +56,23 @@ const Header = () => {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              {/* <ul className='justify-center text-black space-y-8 md:flex md:space-x-6 md:space-y-0'>
+              <ul className='justify-center text-brown3 text-[20px] gap-3 font-bolder flex flex-col lg:flex-row'>
                 <li>
-                  <a href='/omsa'>Omša</a>
+                  <a href='/co-hlasali-apostoli'>Čo hlásali apoštoli</a>
                 </li>
                 <li>
-                  <a href='/spoved'>Spoveď</a>
+                  <a href='/je-jezis-boh'>Je Ježiš Boh?</a>
                 </li>
                 <li>
-                  <a href='/manzelstvo'>Manželstvo</a>
+                  <a href='/koho-panom-je-jezis'>Koho Pánom je Ježiš?</a>
                 </li>
                 <li>
                   <a href='/papezsky-urad'>Pápežský úrad</a>
                 </li>
                 <li>
-                  <a href='/knazsky-urad'>Kňazský úrad</a>
+                  <a href='/vecera-panova'>Večera Pánova</a>
                 </li>
-                <li>
-                  <a href='/klastorny-zivot'>Kláštorný život</a>
-                </li>
-                <li>
-                  <a href='/maria'>Mária</a>
-                </li>
-                <li>
-                  <a href='/hriech'>Hriech</a>
-                </li>
-                <li>
-                  <a href='/spasenie'>Spasenie</a>
-                </li>
-                <li>
-                  <a href='/biblia'>Biblia</a>
-                </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </div>
