@@ -293,7 +293,7 @@ const Home = () => {
 
       <span className='italic'></span>
       <span className='text-[20px]'></span>
-      {/* <CookieConsent
+      <CookieConsent
         location='bottom'
         style={{
           background: '#492700',
@@ -315,7 +315,7 @@ const Home = () => {
         }}
       >
         Táto stránka nezhromažďuje žiadne údaje
-      </CookieConsent> */}
+      </CookieConsent>
     </>
   )
 }
