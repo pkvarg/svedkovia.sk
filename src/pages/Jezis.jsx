@@ -51,6 +51,12 @@ const Jezis = () => {
           <p>
             <span className='italic'>
               {' '}
+              Lebo nesmieš sa klaňať inému bohu, pretože Hospodin, ktorého meno
+              je Žiarlivý, je naozaj žiarlivý Boh.{' '}
+            </span>
+            <span className='text-[20px]'> Exodus 34:14 </span>
+            <span className='italic'>
+              {' '}
               A Otec ani nesúdi nikoho, ale celý súd odovzdal Synovi, aby všetci
               ctili Syna tak, ako ctia Otca. Kto nectí Syna, nectí ani Otca,
               ktorý Ho poslal.
@@ -62,148 +68,179 @@ const Jezis = () => {
           {/* continue */}
 
           <h2 className='text-center text-[25px] mt-4'>
-            Svedčili o kráľovstve Božom, do ktorého vstúpi človek len skrze
-            vieru v Ježiša Krista
+            Len Bohu sa má klaňať Jeho stvorenie
           </h2>
           <p>
             <span className='italic'>
               {' '}
-              A celkom smelo a bez prekážky kázal o kráľovstve Božom a učil o
-              Pánovi Ježišovi Kristovi.{' '}
+              Keď som to počul a videl, padol som k nohám anjelovi, ktorý mi to
+              ukázal, a klaňal som sa mu. On mi však povedal: Pozri, nie tak!
+              Som spoluslužobníkom tvojím, tvojich bratov, prorokov a tých,
+              ktorí zachovávajú slová tejto knihy. Bohu sa klaňaj!{' '}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 28:31 </span>
+            <span className='text-[20px]'> Zjavenie Jána 22:8-9 </span>
             <span className='italic'>
               {' '}
-              Amen, amen, hovorím ti: Ak sa niekto nenarodí z vody a z Ducha,
-              nemôže vojsť do Božieho kráľovstva. Na to mu Nikodém odpovedal:
-              „Ako sa to môže stať?“ A ako Mojžiš vyzdvihol hada na púšti, tak
-              musí byť vyzdvihnutý aj Syn človeka, aby každý, kto v neho verí,
-              mal večný život.{' '}
+              A keď zase uvedie Prvorodeného na svet, hovorí: Nech padnú pred
+              Ním na kolená všetci anjeli Boží!
             </span>
-            <span className='text-[20px]'> Ján 3:5,9,14-15 </span>
-            Kázanie o kráľovstve je opäť len kázanie o Ježišovi Kristovi.
+            <span className='text-[20px]'> Židom 1:6 </span>
+            Božie stvorenie sa má klaňať Ježišovi.
           </p>
 
           <h2 className='text-center text-[25px] mt-4'>
-            Svedčili o osobe Ježiša Krista
+            Len Boh môže vládnuť nad všetkým
           </h2>
 
           <p>
             <span className='italic'>
               {' '}
-              S mužmi, ktorí životy nasadili pre meno nášho Pána Ježiša Krista.{' '}
+              Najvyšší vládne nad kráľovstvom ľudí a dáva ho, komu chce.
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 15:26 </span>
-            Tak zvestovali evanjelium, že riskovali vlastné životy za svedectvo
-            o Pánovi Ježišovi.
+            <span className='text-[20px]'> Daniel 4:29 </span>
             <span className='italic'>
               {' '}
-              Ale niektorí z nich boli z Cypru a z Kyrény, a keď prišli do
-              Antiochie, hovorili aj Grékom a zvestovali Pána Ježiša.{' '}
+              Ježiš pristúpil a povedal im: „Daná mi je všetka moc na nebi aj na
+              zemi.
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 11:20 </span>
+            <span className='text-[20px]'> Matúš 28:18 </span>
+            Boh zveril Ježišovi všetku vládu.{' '}
+          </p>
+
+          <h2 className='text-center text-[25px] mt-4'>Ježiš nie je anjel</h2>
+
+          <p>
             <span className='italic'>
               {' '}
-              Predvolali si ich teda a prikázali im, aby nikdy viac ani
-              nehovorili ani neučili v mene Ježišovom.{' '}
+              O toľko je dôstojnejší ako anjeli, o koľko ich prevyšuje menom,
+              ktoré zdedil. Veď kedy ktorému anjelovi povedal Boh: Syn môj si
+              Ty, ja som ťa splodil dnes? A inde: Ja Mu budem otcom a On mi bude
+              synom.{' '}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 4:18 </span>
-            Čo teda vadilo ich protivníkom? Meno Ježiš.
+            <span className='text-[20px]'> Židom 1:4-5 </span>
+
+            <span className='italic'>
+              {' '}
+              Lebo nie anjelom podriadil Boh budúci svet, o ktorom hovoríme.{' '}
+            </span>
+            <span className='text-[20px]'> Židom 2:5 </span>
           </p>
 
           <h2 className='text-center text-[25px] mt-4'>
-            Svedčili o tom, čo hovoril Ježiš Kristus
+            Prorok Izaiáš ho predpovedá ako Boha
           </h2>
 
           <p>
-            Slovo, ktoré hlásal Pán Ježiš, to hlásali apoštoli.
             <span className='italic'>
               {' '}
-              O niekoľko dní povedal Pavel Barnabášovi: Vráťme sa a po všetkých
-              mestách, v ktorých sme zvestovali slovo Pánovo, ponavštevujeme
-              bratov, ako sa majú.{' '}
+              Lebo dieťa sa nám narodilo, syn nám je daný; na jeho pleciach
+              spočinie kniežatstvo, jeho meno bude: Predivný radca, Mocný Boh,
+              Otec večnosti, Knieža pokoja.{' '}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 15:36 </span>
+            <span className='text-[20px]'> Izaiáš 9:5 </span>
           </p>
 
           <h2 className='text-center text-[25px] mt-4'>
-            Ako apoštoli hlásali evanjelium?
+            Slovo, ktoré sa stalo telom je Boh
           </h2>
 
           <p>
             <span className='italic'>
               {' '}
-              Ale prijmite moc Ducha Svätého, ktorý zostúpi na vás, a budete mi
-              svedkami.{' '}
+              Na počiatku bolo Slovo a Slovo bolo u Boha a Boh bol to Slovo.
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 1:8 </span>
-            Apoštoli nehlásali evanjelium rutinným a rozumovým rozprávaním o
-            tom, čo videli, ale v moci Ducha Svätého.
+            <span className='text-[20px]'> Ján 1:1 </span>
+            Grécky originál označuje Boha slovom theón a theós:
+            <span className='italic font-thin'>
+              {' '}
+              “Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν (theón), καὶ
+              θεὸς (theós) ἦν ὁ λόγος.”
+            </span>
+            <span className='italic'>
+              {' '}
+              A to Slovo stalo sa telom, prebývalo medzi nami, a my sme hľadeli
+              na Jeho slávu ako na slávu jednorodeného od Otca, (bolo) plné
+              milosti a pravdy.{' '}
+            </span>
+            <span className='text-[20px]'> Ján 1:14 </span>
+            Ježiš prišiel v tele na svet, takže On je tým Slovom.
           </p>
 
           <h2 className='text-center text-[25px] mt-4'>
-            Čo je dôkazom pravého evanjelia?
+            Ježiš vyznáva Seba za Boha
           </h2>
 
           <p>
             <span className='italic'>
               {' '}
-              Veď ja sa nehanbím za evanjelium (Kristovo): lebo mocou Božou je
-              ono na spasenie každému veriacemu, najprv Židovi, a aj Grékovi.{' '}
+              Boh riekol Mojžišovi: SOM, KTORÝ SOM. Riekol ďalej: Tak povedz
+              Izraelcom: Poslal ma k vám SOM.{' '}
             </span>
-            <span className='text-[20px]'> Rimanom 1:16 </span>
-            Spasenie hriešnika je možné len skrze vieru v Ježiša Krista a
-            poslušnosti Jeho Slovu.
+            <span className='text-[20px]'> Exodus 3:14 </span>
+
             <span className='italic'>
               {' '}
-              Zjavuje sa v ňom zaiste spravodlivosť Božia z viery pre vieru, ako
-              je napísané: Spravodlivý z viery bude žiť.{' '}
+              Hovorím vám to už teraz, skôr, ako sa to stane, aby ste uverili,
+              keď sa to stane, že ja SOM.{' '}
             </span>
-            <span className='text-[20px]'> Rimanom 1:17 </span>
-            Vo viere vo vzkriesenie a v nasledovaní Ježiša Krista sa zjavuje
-            Božia spravodlivosť.
+            <span className='text-[20px]'> Ján 13:19 </span>
+            <span className='italic'>
+              {' '}
+              Ježiš im riekol: Veru, veru, hovorím vám: Skôr, ako bol Abrahám,
+              ja SOM. Ján 8:58 Preto som vám povedal, že umriete v hriechoch,
+              lebo ak neuveríte, že ja SOM, umriete v hriechoch.{' '}
+            </span>
+            <span className='text-[20px]'> Ján 8:24 </span>
           </p>
 
           <h2 className='text-center text-[25px] mt-4'>
-            Nehlásať vzkriesenie je porušením Božieho nariadenia
+            Učeník dosvedčuje, že Ježiš je Boh
           </h2>
 
           <p>
             <span className='italic'>
-              {' '}
-              Veď Boh, ktorému slúžim svojím duchom zvesťou evanjelia Jeho Syna,
-              je mi svedkom, ako neprestajne spomínam na vás.{' '}
+              A prišiel Ježiš, hoci dvere boli zatvorené, a postaviac sa do
+              prostriedku, riekol im: Pokoj vám! Potom hovorí Tomášovi: Daj sem
+              prst a pozri sa na moje ruky; daj sem ruku a vlož ju do môjho boku
+              a nebuď neveriaci, ale veriaci. Tomáš mu povedal: Pán môj a Boh
+              môj!{' '}
             </span>
-            <span className='text-[20px]'> Rimanom 1:9 </span>
-            Pavol slúži Bohu tým, že zvestuje evanjelium Jeho Syna. Ak by
-            učeníci nehlásali to, čoho boli očitými svedkami, porušili by príkaz
-            Boha.
+            <span className='text-[20px]'> Ján 20:26-28 </span>
+          </p>
+          <h2 className='text-center text-[25px] mt-4'>
+            Pavol apoštol označuje Ježiša za Boha
+          </h2>
+
+          <p>
             <span className='italic'>
-              {' '}
-              Ale Peter a Ján odpovedali im takto: Súďte, či je spravodlivé pred
-              Bohom poslúchať viac vás ako Boha! Lebo my nemôžeme nehovoriť o
-              tom, čo sme videli a počuli.{' '}
+              Ich sú otcovia a z nich je Kristus podľa tela, Boh nad všetkým,
+              požehnaný naveky.{' '}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 4:19-20 </span>
+            <span className='text-[20px]'> Rimanom 9:5 </span>
+            Rovnako aj grécky originál nerozdeľuje túto vetu na dve, ale
+            pokračuje v nej čiarkou pred slovom Boh (theós) bez prerušenia:
+            <span className='italic font-thin'>
+              {' '}
+              “ὧν οἱ πατέρες, καὶ ἐξ ὧν ὁ χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ
+              πάντων, θεὸς (theós) εὐλογητὸς εἰς τοὺς αἰῶνας· ἀμήν.”
+            </span>
+          </p>
+
+          <h2 className='text-center text-[25px] mt-4'>
+            Sám Boh oslovuje Ježiša ako Boha
+          </h2>
+
+          <p>
             <span className='italic'>
-              {' '}
-              Čudujem sa, že od Toho, ktorý vás povolal v milosti Kristovej, sa
-              tak rýchlo odvraciate k inému evanjeliu, ktoré ani nie je iné
-              evanjelium. Sú však niektorí, čo robia zmätok medzi vami a chcú
-              prekrútiť evanjelium Kristovo. Ale keby sme aj my, alebo keby vám
-              anjel z neba zvestoval (iné) evanjelium miesto toho, ktoré sme vám
-              my zvestovali, - nech je prekliaty! Ako sme prv povedali, aj teraz
-              znovu hovorím: ak vám niekto zvestuje (iné) evanjelium miesto
-              toho, ktoré ste prijali, - nech je prekliaty!{' '}
+              Ale k Synovi (Boh hovorí): Tvoj trón, ó Bože, je naveky vekov a:
+              žezlo spravodlivosti je žezlom Jeho kráľovstva; miloval si
+              spravodlivosť a nenávidel si neprávosť; preto pomazal Ťa, ó Bože,
+              Tvoj Boh olejom veselia nad Tvojich druhov.{' '}
             </span>
-            <span className='text-[20px]'> Galatským 1:6-9 </span>
-            <span className='italic'> </span>
-            <span className='text-[20px]'></span>
+            <span className='text-[20px]'> Židom 1:8-9 </span>
           </p>
         </div>
       </div>
-      <span className='italic'></span>
-      <span className='text-[20px]'></span>
     </>
   )
 }

@@ -66,9 +66,7 @@ const Header = () => {
                 <li>
                   <a href='/koho-panom-je-jezis'>Koho Pánom je Ježiš?</a>
                 </li>
-                <li>
-                  <a href='/papezsky-urad'>Pápežský úrad</a>
-                </li>
+
                 <li>
                   <a href='/vecera-panova'>Večera Pánova</a>
                 </li>
