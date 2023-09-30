@@ -6,7 +6,7 @@ const Footer = () => {
       <section className='mx-4 pt-4 pb-4'></section>
       <section className='mx-4 text-brown3 text-[20px] pb-8'>
         <div className=''>
-          <ul className='flex flex-col lg:flex-row justify-center items-center text-brown3 text-[20px] gap-2 font-bolder'>
+          <ul className='flex flex-col lg:flex-row justify-center items-center text-brown3 text-[20px] gap-2 lg:gap-6 font-bolder'>
             <li>
               <a href='/co-hlasali-apostoli'>Čo hlásali apoštoli</a>
             </li>

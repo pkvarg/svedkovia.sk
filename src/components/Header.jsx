@@ -56,7 +56,7 @@ const Header = () => {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className='justify-center text-brown3 text-[20px] gap-3 font-bolder flex flex-col lg:flex-row'>
+              <ul className='justify-center text-brown3 text-[20px] gap-3 lg:gap-6 font-bolder flex flex-col lg:flex-row'>
                 <li>
                   <a href='/co-hlasali-apostoli'>Čo hlásali apoštoli</a>
                 </li>
