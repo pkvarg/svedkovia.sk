@@ -1,16 +1,31 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import LanguageBar from './LanguageBar'
+import Translation from '../Data.json'
 
-const HeaderHome = () => {
+const HeaderHome = ({ language }) => {
   const [navbar, setNavbar] = useState(false)
+  const [content, setContent] = useState({})
+
+  useEffect(() => {
+    if (language === 'slovak') {
+      setContent(Translation.slovak)
+    } else {
+      setContent(Translation.english)
+    }
+  })
 
   return (
     <header className='bg-transparent'>
       <nav className='w-full text-white nav-font'>
         <div className='justify-between px-4 mx-auto md:items-center'>
           <div className='mb-0'>
+            <div className='hidden lg:flex'>
+              <LanguageBar />
+            </div>
+
             <div className='flex items-center justify-between py-3 md:flex lg:hidden'>
               <a className='text-[30px] font-medium text-brown3' href='/'>
-                Svedkovia
+                {content.headerTitle}
               </a>
               <div className='flex'>
                 <button
@@ -71,6 +86,9 @@ const HeaderHome = () => {
                   <a href='/vecera-panova'>Večera Pánova</a>
                 </li>
               </ul>
+              <div className='flex lg:hidden'>
+                <LanguageBar />
+              </div>
             </div>
           </div>
         </div>

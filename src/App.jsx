@@ -7,20 +7,23 @@ import Vecera from './pages/Vecera'
 import Footer from './components/Footer'
 import Counter from './pages/Counter'
 import ScrollToTop from './components/ScrollToTop'
+import { StateContext } from './context/StateContext'
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/co-hlasali-apostoli' element={<Apostoli />} />
-          <Route path='/je-jezis-boh' element={<Jezis />} />
-          <Route path='/koho-panom-je-jezis' element={<Pan />} />
-          <Route path='/vecera-panova' element={<Vecera />} />
-          <Route path='/counter' element={<Counter />} />
-        </Routes>
-        <ScrollToTop />
+        <StateContext>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/co-hlasali-apostoli' element={<Apostoli />} />
+            <Route path='/je-jezis-boh' element={<Jezis />} />
+            <Route path='/koho-panom-je-jezis' element={<Pan />} />
+            <Route path='/vecera-panova' element={<Vecera />} />
+            <Route path='/counter' element={<Counter />} />
+          </Routes>
+          <ScrollToTop />
+        </StateContext>
       </BrowserRouter>
       <Footer />
     </>
