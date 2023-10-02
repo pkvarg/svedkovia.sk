@@ -8,8 +8,6 @@ const Apostoli = () => {
   const { language } = useStateContext()
   const [content, setContent] = useState({})
 
-  console.log(language)
-
   useEffect(() => {
     if (language === 'slovak') {
       setContent(Translation.slovak)
@@ -18,7 +16,7 @@ const Apostoli = () => {
     } else {
       setContent(Translation.czech)
     }
-  }, [])
+  }, [language])
 
   return (
     <>
@@ -46,82 +44,122 @@ const Apostoli = () => {
               {/* Skutky apoštolov 28:23  */}
             </span>
           </p>
-          <h2 className='text-center text-[25px]'>Čo hlásali apoštoli?</h2>
+          <h2 className='text-center text-[25px]'>
+            {content.apTitle}
+            {/* Čo hlásali apoštoli? */}
+          </h2>
           <p>
             <span className='italic'>
               {' '}
-              Čo bolo od počiatku, čo sme počuli, čo sme videli na vlastné oči,
+              {content.apVerse2}
+              {/* Čo bolo od počiatku, čo sme počuli, čo sme videli na vlastné oči,
               na čo sme pozerali a čoho sa nám dotýkali ruky, (o tom svedčíme,
               totiž) o Slove života. A ten život sa zjavil, my sme (Ho) videli,
               svedčíme (o Ňom) a zvestujeme vám večný život, ktorý bol u Otca a
               zjavil sa nám. Čo sme (teda) videli a počuli, zvestujeme aj vám,
               aby ste aj vy mali spoločenstvo s nami. Naše spoločenstvo aby bolo
               s Otcom a s Jeho Synom Ježišom Kristom. Toto vám píšeme, aby naša
-              radosť bola úplná.
+              radosť bola úplná. */}
             </span>
-            <span className='text-[20px]'> Prvý Jánov 1:1-4 </span>
-            Apoštoli svedčili o Ježišovi, ktorého fyzicky videli, poznali,
-            ktorého stretli po Jeho smrti a ktorého videli ako je unášaný do
-            neba.
+            <span className='text-[20px]'>
+              {' '}
+              {content.apRef2} {/* Prvý Jánov 1:1-4 */}
+            </span>
+            {content.apText1}
+            {/* The apostles testified about Jesus, Whom they physically saw, knew, met after His death, and Whom they saw taken up into heaven. */}
           </p>
           <h2 className='text-center text-[25px] mt-4'>
-            Svedčili o vzkriesení Ježiša Krista
+            {content.apSub2}
+            {/* Svedčili o vzkriesení Ježiša Krista */}
           </h2>
           <p>
             <span className='italic'>
               {' '}
-              Tohto Ježiša vzkriesil Boh a my všetci sme svedkami toho.
+              {content.apVerse3}
+              {/* Tohto Ježiša vzkriesil Boh a my všetci sme svedkami toho. */}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 2:32 </span>
+            <span className='text-[20px]'>
+              {' '}
+              {content.apRef3} {/* Skutky apoštolov 2:32 */}
+            </span>
             <span className='italic'>
               {' '}
-              Ale zamordovali ste Vodcu života, ktorého Boh vzkriesil z mŕtvych;
-              a my sme svedkami toho.
+              {content.apVerse4}
+              {/* Ale zamordovali ste Vodcu života, ktorého Boh vzkriesil z mŕtvych;
+              a my sme svedkami toho. */}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 3:15 </span>
+            <span className='text-[20px]'>
+              {' '}
+              {content.apRef4} {/* Skutky apoštolov 3:15 */}
+            </span>
             <span className='italic'>
               {' '}
-              Vedzte teda vy všetci, aj všetok ľud izraelský, že tento človek
+              {content.apVerse5}
+              {/* Vedzte teda vy všetci, aj všetok ľud izraelský, že tento človek
               stojí pred vami zdravý v mene Ježiša Krista Nazaretského, ktorého
-              ste vy ukrižovali, ale Boh Ho vzkriesil z mŕtvych.{' '}
+              ste vy ukrižovali, ale Boh Ho vzkriesil z mŕtvych.{' '} */}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 4:10 </span>
+            <span className='text-[20px]'>
+              {' '}
+              {content.apRef5} {/* Skutky apoštolov 4:10 */}
+            </span>
             <span className='italic'>
               {' '}
-              Apoštolovia však veľmi mocne vydávali svedectvo o vzkriesení Pána
-              Ježiša a veľká milosť spočinula na nich na všetkých.{' '}
+              {content.apVerse6}
+              {/* Apoštolovia však veľmi mocne vydávali svedectvo o vzkriesení Pána
+              Ježiša a veľká milosť spočinula na nich na všetkých.{' '} */}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 4:33 </span>
+            <span className='text-[20px]'>
+              {' '}
+              {content.apRef6} {/* Skutky apoštolov 4:33 */}
+            </span>
             <span className='italic'>
               {' '}
-              Boh našich otcov vzkriesil Ježiša, ktorého ste vy zamordovali, keď
+              {content.apVerse7}
+              {/* Boh našich otcov vzkriesil Ježiša, ktorého ste vy zamordovali, keď
               ste Ho povesili na drevo. Toho Boh povýšil svojou pravicou za
               Vodcu a Spasiteľa, aby dal Izraelovi pokánie a odpustenie
               hriechov. A svedkami toho sme my a Duch Svätý, ktorého dal Boh
-              tým, čo Ho poslúchajú.{' '}
+              tým, čo Ho poslúchajú.{' '} */}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 5:30-32 </span>
+            <span className='text-[20px]'>
+              {' '}
+              {content.apRef7} {/* Skutky apoštolov 5:30-32 */}
+            </span>
             <span className='italic'>
               {' '}
-              Ale neprestali deň čo deň učiť v chráme a po domoch a zvestovať
-              evanjelium Krista Ježiša.{' '}
+              {content.apVerse8}
+              {/* Ale neprestali deň čo deň učiť v chráme a po domoch a zvestovať
+              evanjelium Krista Ježiša.{' '} */}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 5:42 </span>
+            <span className='text-[20px]'>
+              {' '}
+              {content.apRef8} {/* Skutky apoštolov 5:42 */}
+            </span>
             <span className='italic'>
               {' '}
-              A my sme svedkami všetkého, čo činil v Judsku a v Jeruzaleme, ako
+              {content.apVerse9}
+              {/* A my sme svedkami všetkého, čo činil v Judsku a v Jeruzaleme, ako
               Ho aj zamordovali, povesiac Ho na drevo. Toho Boh vzkriesil v
-              tretí deň a dal Mu zjavovať sa.{' '}
+              tretí deň a dal Mu zjavovať sa.{' '} */}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 10:39-40 </span>
+            <span className='text-[20px]'>
+              {' '}
+              {content.apRef9} {/* Skutky apoštolov 10:39-40 */}
+            </span>
             <span className='italic'>
               {' '}
-              Až na jediný výkrik, ktorý som zavolal, stojac medzi nimi: Pre
-              vzkriesenie z mŕtvych ma dnes súdite.{' '}
+              {content.apVerse10}
+              {/* Až na jediný výkrik, ktorý som zavolal, stojac medzi nimi: Pre
+              vzkriesenie z mŕtvych ma dnes súdite.{' '} */}
             </span>
-            <span className='text-[20px]'> Skutky apoštolov 24:21 </span>
-            Pavol bol súdený a bitý preto, že svedčil o vzkriesenom Ježišovi
-            Kristovi.
+            <span className='text-[20px]'>
+              {' '}
+              {content.apRef10} {/* Skutky apoštolov 24:21 */}
+            </span>
+            {content.apText2}
+            {/* Pavol bol súdený a bitý preto, že svedčil o vzkriesenom Ježišovi
+            Kristovi. */}
           </p>
 
           <h2 className='text-center text-[25px] mt-4'>
