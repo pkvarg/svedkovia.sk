@@ -1,10 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
+import Translation from '../JesusGod.json'
+import { useStateContext } from '../context/StateContext'
 
 const Jezis = () => {
+  const { language, setLanguage } = useStateContext()
+  const [content, setContent] = useState({})
+
+  useEffect(() => {
+    if (language === 'slovak') {
+      setContent(Translation.slovak)
+    } else if (language === 'english') {
+      setContent(Translation.english)
+    } else {
+      setContent(Translation.czech)
+    }
+  }, [language])
+
   return (
     <>
-      <Header />
+      <Header language={language} setLanguage={setLanguage} />
       <div className='bg-white text-[20px]'>
         <h1 className='text-center text-[30px] py-8'>Je Ježiš Boh?</h1>
         <div className='py-8 mx-4 lg:mx-8'>

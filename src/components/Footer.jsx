@@ -1,6 +1,21 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import Translation from '../Home.json'
+import { useStateContext } from '../context/StateContext'
 
 const Footer = () => {
+  const { language } = useStateContext()
+  const [content, setContent] = useState({})
+
+  useEffect(() => {
+    if (language === 'slovak') {
+      setContent(Translation.slovak)
+    } else if (language === 'english') {
+      setContent(Translation.english)
+    } else {
+      setContent(Translation.czech)
+    }
+  }, [language])
+
   return (
     <footer className='homegradient'>
       <section className='mx-4 pt-4 pb-4'></section>
@@ -8,17 +23,32 @@ const Footer = () => {
         <div className=''>
           <ul className='flex flex-col lg:flex-row justify-center items-center text-brown3 text-[20px] gap-2 lg:gap-6 font-bolder'>
             <li>
-              <a href='/co-hlasali-apostoli'>Čo hlásali apoštoli</a>
+              <a href='/co-hlasali-apostoli'>
+                {content.ftLi1}
+                {/* Čo hlásali apoštoli */}
+              </a>
             </li>
             <li>
-              <a href='/je-jezis-boh'>Je Ježiš Boh?</a>
+              <a href='/je-jezis-boh'>
+                {content.ftLi2}
+
+                {/* Je Ježiš Boh? */}
+              </a>
             </li>
             <li>
-              <a href='/koho-panom-je-jezis'>Koho Pánom je Ježiš?</a>
+              <a href='/koho-panom-je-jezis'>
+                {content.ftLi3}
+
+                {/* Koho Pánom je Ježiš? */}
+              </a>
             </li>
 
             <li>
-              <a href='/vecera-panova'>Večera Pánova</a>
+              <a href='/vecera-panova'>
+                {content.ftLi4}
+
+                {/* Večera Pánova */}
+              </a>
             </li>
           </ul>
         </div>

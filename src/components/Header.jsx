@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import LanguageBar from './LanguageBar'
 import Translation from '../Home.json'
 
-const Header = ({ language }) => {
+const Header = ({ language, setLanguage }) => {
   const [navbar, setNavbar] = useState(false)
   const [content, setContent] = useState({})
 
@@ -14,7 +14,7 @@ const Header = ({ language }) => {
     } else {
       setContent(Translation.czech)
     }
-  }, [])
+  }, [language])
 
   return (
     <header className='homegradient'>
@@ -23,7 +23,8 @@ const Header = ({ language }) => {
           <div className='mb-0'>
             <div className='flex items-center justify-between py-3 md:py-5 md:block'>
               <a className='text-[25px] font-medium text-brown3' href='/'>
-                Svedkovia
+                {content.headerTitle}
+                {/* Svedkovia */}
               </a>
               <div className='md:hidden'>
                 <button
@@ -71,20 +72,32 @@ const Header = ({ language }) => {
             >
               <ul className='justify-center text-brown3 text-[20px] gap-3 lg:gap-6 font-bolder flex flex-col lg:flex-row'>
                 <li>
-                  <a href='/co-hlasali-apostoli'>Čo hlásali apoštoli</a>
+                  <a href='/co-hlasali-apostoli'>
+                    {content.ftLi1}
+                    {/* Čo hlásali apoštoli */}
+                  </a>
                 </li>
                 <li>
-                  <a href='/je-jezis-boh'>Je Ježiš Boh?</a>
+                  <a href='/je-jezis-boh'>
+                    {content.ftLi2}
+                    {/* Je Ježiš Boh? */}
+                  </a>
                 </li>
                 <li>
-                  <a href='/koho-panom-je-jezis'>Koho Pánom je Ježiš?</a>
+                  <a href='/koho-panom-je-jezis'>
+                    {content.ftLi3}
+                    {/* Koho Pánom je Ježiš? */}
+                  </a>
                 </li>
 
                 <li>
-                  <a href='/vecera-panova'>Večera Pánova</a>
+                  <a href='/vecera-panova'>
+                    {content.ftLi4}
+                    {/* Večera Pánova */}
+                  </a>
                 </li>
                 <li className=''>
-                  <LanguageBar />
+                  <LanguageBar language={language} setLanguage={setLanguage} />
                 </li>
               </ul>
             </div>

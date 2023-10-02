@@ -1,9 +1,7 @@
 import React from 'react'
-import { useStateContext } from '../context/StateContext'
+import { useState } from 'react'
 
-const LanguageBar = () => {
-  const { language, setLanguage } = useStateContext()
-
+const LanguageBar = ({ language, setLanguage }) => {
   const handleLanguage = (lang) => {
     setLanguage(lang)
   }

@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
 import Translation from '../Apostoli.json'
-
 import { useStateContext } from '../context/StateContext'
 
 const Apostoli = () => {
-  const { language } = useStateContext()
+  const { language, setLanguage } = useStateContext()
   const [content, setContent] = useState({})
 
   useEffect(() => {
@@ -20,7 +19,7 @@ const Apostoli = () => {
 
   return (
     <>
-      <Header language={language} />
+      <Header language={language} setLanguage={setLanguage} />
       <div className='bg-white text-[20px]'>
         <h1 className='text-center text-[30px] py-8'>
           {content.apTitle}

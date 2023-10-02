@@ -23,9 +23,9 @@ function App() {
             <Route path='/counter' element={<Counter />} />
           </Routes>
           <ScrollToTop />
+          <Footer />
         </StateContext>
       </BrowserRouter>
-      <Footer />
     </>
   )
 }

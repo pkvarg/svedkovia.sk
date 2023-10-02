@@ -104,7 +104,12 @@
     "homeBold2": "Nesieš aj ty pred pohanov Jeho Meno?",
 
     "cookiesText": "Táto stránka nezhromažďuje žiadne údaje",
-    "cookiesButton": "Pokračovať"
+    "cookiesButton": "Pokračovať",
+
+    "ftLi1": "Čo hlásali apoštoli",
+    "ftLi2": "Je Ježiš Boh?",
+    "ftLi3": "Koho Pánom je Ježiš?",
+    "ftLi4": "Večera Pánova"
   },
 
   "english": {
@@ -213,6 +218,11 @@
     "homeBold2": "Do you also carry His Name before the Gentiles?",
 
     "cookiesText": "This site does not collect any information",
-    "cookiesButton": "Continue"
+    "cookiesButton": "Continue",
+
+    "ftLi1": "What did the Apostles Preach?",
+    "ftLi2": "Is Jesus God?",
+    "ftLi3": "Whose Lord is Jesus?",
+    "ftLi4": "The Lords Supper"
   }
 }

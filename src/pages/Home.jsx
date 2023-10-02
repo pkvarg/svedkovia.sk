@@ -6,7 +6,7 @@ import Translation from '../Home.json'
 import { useStateContext } from '../context/StateContext'
 
 const Home = () => {
-  const { language } = useStateContext()
+  const { language, setLanguage } = useStateContext()
   const [content, setContent] = useState({})
 
   const [cookieAccept, setCookieAccept] = useState(false)
@@ -19,7 +19,7 @@ const Home = () => {
     } else {
       setContent(Translation.czech)
     }
-  }, [])
+  }, [language])
 
   const config = {
     headers: {
@@ -40,7 +40,7 @@ const Home = () => {
   return (
     <>
       <header className='hero-bg h-[100vh]'>
-        <HeaderHome language={language} />
+        <HeaderHome language={language} setLanguage={setLanguage} />
         <h1 className='text-[45px] text-brown3 text-center pt-[20%] lg:pt-[5%]'>
           {content.heroTitle}
           {/* Svedok je ten, kto mal osobnú skúsenosť a o nej vypovedá */}
