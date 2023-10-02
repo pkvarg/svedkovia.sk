@@ -1,7 +1,20 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import LanguageBar from './LanguageBar'
+import Translation from '../Home.json'
 
-const Header = () => {
+const Header = ({ language }) => {
   const [navbar, setNavbar] = useState(false)
+  const [content, setContent] = useState({})
+
+  useEffect(() => {
+    if (language === 'slovak') {
+      setContent(Translation.slovak)
+    } else if (language === 'english') {
+      setContent(Translation.english)
+    } else {
+      setContent(Translation.czech)
+    }
+  }, [])
 
   return (
     <header className='homegradient'>
@@ -69,6 +82,9 @@ const Header = () => {
 
                 <li>
                   <a href='/vecera-panova'>Večera Pánova</a>
+                </li>
+                <li className=''>
+                  <LanguageBar />
                 </li>
               </ul>
             </div>

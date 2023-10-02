@@ -1,24 +1,50 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
+import Translation from '../Apostoli.json'
+
+import { useStateContext } from '../context/StateContext'
 
 const Apostoli = () => {
+  const { language } = useStateContext()
+  const [content, setContent] = useState({})
+
+  console.log(language)
+
+  useEffect(() => {
+    if (language === 'slovak') {
+      setContent(Translation.slovak)
+    } else if (language === 'english') {
+      setContent(Translation.english)
+    } else {
+      setContent(Translation.czech)
+    }
+  }, [])
+
   return (
     <>
-      <Header />
+      <Header language={language} />
       <div className='bg-white text-[20px]'>
-        <h1 className='text-center text-[30px] py-8'>Čo hlásali apoštoli</h1>
+        <h1 className='text-center text-[30px] py-8'>
+          {content.apTitle}
+          {/* Čo hlásali apoštoli */}
+        </h1>
         <div className='py-8 mx-4 lg:mx-8'>
           <h2 className='text-center text-[25px]'>
-            Už Starý zákon svedčí o Ježišovi Kristovi
+            {content.apSub1}
+            {/* Už Starý zákon svedčí o Ježišovi Kristovi */}
           </h2>
           <p>
             <span className='italic'>
               {' '}
-              Určili mu teda deň a zišlo sa ich mnoho na jeho byte. (Pavel) im
+              {content.apVerse1}{' '}
+              {/* Určili mu teda deň a zišlo sa ich mnoho na jeho byte. (Pavel) im
               od rána až do večera vykladal, svedčil o kráľovstve Božom a
-              presviedčal ich o Ježišovi z Mojžišovho Zákona a z Prorokov.{' '}
+              presviedčal ich o Ježišovi z Mojžišovho Zákona a z Prorokov.{' '} */}
             </span>
-            <span className='text-[20px]'>Skutky apoštolov 28:23 </span>
+            <span className='text-[20px]'>
+              {content.apRef1}
+              {/* Skutky apoštolov 28:23  */}
+            </span>
           </p>
           <h2 className='text-center text-[25px]'>Čo hlásali apoštoli?</h2>
           <p>

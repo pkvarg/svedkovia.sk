@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import LanguageBar from './LanguageBar'
-import Translation from '../Data.json'
+import Translation from '../Home.json'
 
 const HeaderHome = ({ language }) => {
   const [navbar, setNavbar] = useState(false)
@@ -19,7 +19,7 @@ const HeaderHome = ({ language }) => {
       <nav className='w-full text-white nav-font'>
         <div className='justify-between px-4 mx-auto md:items-center'>
           <div className='mb-0'>
-            <div className='hidden lg:flex'>
+            <div className='hidden lg:flex absolute top-2 right-8 lg:right-20'>
               <LanguageBar />
             </div>
 
@@ -86,7 +86,7 @@ const HeaderHome = ({ language }) => {
                   <a href='/vecera-panova'>Večera Pánova</a>
                 </li>
               </ul>
-              <div className='flex lg:hidden'>
+              <div className='flex lg:hidden absolute top-2 right-8 lg:right-20'>
                 <LanguageBar />
               </div>
             </div>

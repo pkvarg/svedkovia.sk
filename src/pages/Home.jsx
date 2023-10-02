@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import HeaderHome from '../components/HeaderHome'
 import CookieConsent from 'react-cookie-consent'
 import axios from 'axios'
-import Translation from '../Data.json'
+import Translation from '../Home.json'
 import { useStateContext } from '../context/StateContext'
 
 const Home = () => {
@@ -14,10 +14,12 @@ const Home = () => {
   useEffect(() => {
     if (language === 'slovak') {
       setContent(Translation.slovak)
-    } else {
+    } else if (language === 'english') {
       setContent(Translation.english)
+    } else {
+      setContent(Translation.czech)
     }
-  })
+  }, [])
 
   const config = {
     headers: {
