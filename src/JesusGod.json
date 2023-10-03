@@ -3,7 +3,7 @@
     "jTitle": "Je Ježiš Boh?",
     "jSub1": "Je Ježiš Boh?",
 
-    "jText1": "Apoštoli svedčili o Ježišovi, ktorého fyzicky videli, poznali, ktorého stretli po Jeho smrti a ktorého videli ako je unášaný do neba.",
+    "jText1": "Byť Bohom znamená mať jedinečné božské vlastnosti, ktoré nemá žiadna stvorená bytosť. Božie Slovo vymedzuje rôzne oblasti, ktoré prislúchajú len Bohu a ktoré má človek zakázané prisudzovať ktorejkoľvek stvorenej bytosti.",
 
     "jSub2": "Len Boh môže stvoriť",
 
@@ -20,11 +20,17 @@
     "jSub3": "Len Boh môže súdiť",
 
     "jVerse4": "A Otec ani nesúdi nikoho, ale celý súd odovzdal Synovi, aby všetci ctili Syna tak, ako ctia Otca.",
-    "apRef4": "Ján 5:22",
+    "jRef4": "Ján 5:22",
 
     "jText4": "Boh zveril Ježišovi Svoju autoritu.",
 
     "jSub4": "Len Boha máme uctievať",
+
+    "jVersex5": "Lebo nesmieš sa klaňať inému bohu, pretože Hospodin, ktorého meno je Žiarlivý, je naozaj žiarlivý Boh.",
+    "jRefx5": "Exodus 34:14",
+
+    "jVersexx5": "A Otec ani nesúdi nikoho, ale celý súd odovzdal Synovi, aby všetci ctili Syna tak, ako ctia Otca. Kto nectí Syna, nectí ani Otca, ktorý Ho poslal.",
+    "jRefxx5": "Ján 5:22-23",
 
     "jText5": "Máme vzdať česť a slávu Ježišovi, inak si nectíme Boha.",
 
@@ -96,91 +102,100 @@
 
     "jSub13": "Sám Boh oslovuje Ježiša ako Boha",
 
-    "jVerse20": "le k Synovi (Boh hovorí): Tvoj trón, ó Bože, je naveky vekov a: žezlo spravodlivosti je žezlom Jeho kráľovstva; miloval si spravodlivosť a nenávidel si neprávosť; preto pomazal Ťa, ó Bože, Tvoj Boh olejom veselia nad Tvojich druhov.",
+    "jVerse20": "Ale k Synovi (Boh hovorí): Tvoj trón, ó Bože, je naveky vekov a: žezlo spravodlivosti je žezlom Jeho kráľovstva; miloval si spravodlivosť a nenávidel si neprávosť; preto pomazal Ťa, ó Bože, Tvoj Boh olejom veselia nad Tvojich druhov.",
     "jRef20": "Židom 1:8-9"
   },
 
   "english": {
-    "apTitle": "What did the apostles preach?",
-    "apSub1": "The Old Testament already testifies about Jesus Christ",
+    "jTitle": "Is Jesus God?",
+    "jSub1": "Is Jesus God?",
 
-    "apVerse1": "So they set a day to meet with Paul, and many people came to the place he was staying. He expounded to them from morning to evening, testifying about the kingdom of God and persuading them about Jesus from the Law of Moses and the Prophets.",
-    "apRef1": "Acts 28:23",
+    "jText1": "To be God is to have unique divine properties that no other created being possesses. God's Word defines various areas that belong to God alone and that man is forbidden to attribute to any created being.",
 
-    "apVerse2": " That which was from the beginning, which we have heard, which we have seen with our own eyes, which we have gazed upon and touched with our own hands - this is the Word of life. And this is the life that was revealed; we have seen it and testified to it, and we proclaim to you the eternal life that was with the Father and was revealed to us. We proclaim to you what we have seen and heard, so that you also may have fellowship with us. And this fellowship of ours is with the Father and with His Son, Jesus Christ. We write these things so that our joy may be complete.",
-    "apRef2": "First John 1:1-4",
-    "apText1": "The apostles testified about Jesus, Whom they physically saw, knew, met after His death, and Whom they saw taken up into heaven.",
+    "jSub2": "Only God can create",
 
-    "apSub2": "They testified about the resurrection of Jesus Christ",
-    "apVerse3": "God has raised this Jesus to life, to which we are all witnesses.",
-    "apRef3": "Acts 2:32",
-    "apVerse4": "You killed the Author of life, but God raised Him from the dead, and we are witnesses of the fact.",
-    "apRef4": "Acts 3:15",
-    "apVerse5": "Then let this be known to all of you and to all the people of Israel: It is by the name of Jesus Christ of Nazareth, whom you crucified but whom God raised.",
-    "apRef5": "Acts 4:10",
-    "apVerse6": "With great power the apostles continued to give their testimony about the resurrection of the Lord Jesus. And abundant grace was upon them all.",
-    "apRef6": "Acts 4:33",
-    "apVerse7": "The God of our fathers raised up Jesus, whom you had killed by hanging Him on a tree. God exalted Him to His right hand as Prince and Savior, in order to grant repentance and forgiveness of sins to Israel. We are witnesses of these things, and so is the Holy Spirit, whom God has given to those who obey Him.",
-    "apRef7": "Acts 5:30-32",
-    "apVerse8": "Every day, in the temple courts and from house to house, they did not stop teaching and proclaiming the good news that Jesus is the Christ.",
-    "apRef8": "Acts 5:42",
-    "apVerse9": "We are witnesses of all that He did, both in the land of the Jews and in Jerusalem. And although they put Him to death by hanging Him on a tree, God raised Him up on the third day and caused Him to be seen",
-    "apRef9": " Acts 10:39-40",
-    "apVerse10": "Unless it was this one thing I called out as I stood in their presence: ‘It is concerning the resurrection of the dead that I am on trial before you today.’",
-    "apRef10": "Acts 24:21",
-    "apText2": "Paul was judged and beaten because he testified about the resurrected Jesus Christ.",
+    "jVerse1": "In the beginning God created the heavens and the earth.",
+    "jRef1": "Genesis 1:1",
 
-    "apSub3": "They testified about repentance through faith in Jesus Christ",
-    "apVerse11": "And He told them, “This is what is written: The Christ will suffer and rise from the dead on the third day, and in His name repentance and forgiveness of sins will be proclaimed to all nations, beginning in Jerusalem.",
-    "apRef11": "Luke 24:46-47",
+    "jVerse2": "Through Him all things were made, and without Him nothing was made that has been made.",
+    "jRef2": "John 1:3",
 
-    "apSub4": "They testified about the kingdom of God, into which a person enters only through faith in Jesus Christ",
-    "apVerse12": "Boldly and freely he proclaimed the kingdom of God and taught about the Lord Jesus Christ.",
-    "apRef12": "Acts 28:31",
-    "apVerse13": "Truly, truly, I tell you, no one can enter the kingdom of God unless he is born of water and the Spirit. “How can this be?” Nicodemus asked. Just as Moses lifted up the snake in the wilderness, so the Son of Man must be lifted up, that everyone who believes in Him may have eternal life.",
-    "apRef13": "John 3:5,9,14-15",
-    "apText3": "Preaching about the kingdom is again just preaching about Jesus Christ.",
+    "jVerse3": "He was in the world, and though the world was made through Him, the world did not recognize Him. He came to His own, and His own did not receive Him.",
+    "jRef3": " John 1:10-11",
+    "jText2": "The world arose through Jesus, was created by Him.",
 
-    "apSub5": "They testified about the person of Jesus Christ",
-    "apVerse14": "Men who have risked their lives for the name of our Lord Jesus Christ.",
-    "apRef14": "Acts 15:26",
-    "apText4": "They preached the gospel in such a way that they risked their lives for the testimony of the Lord Jesus.",
-    "apVerse15": "But some of them, men from Cyprus and Cyrene, went to Antioch and began speaking to the Greeks as well, proclaiming the good news about the Lord Jesus.",
-    "apRef15": "Acts 11:20",
-    "apVerse16": "Then they called them in again and commanded them not to speak or teach at all in the name of Jesus. ",
-    "apRef16": "Acts 4:18",
-    "apText5": "So what bothered their opponents? The name of Jesus.",
+    "jSub3": "",
 
-    "apSub6": " They testified to what Jesus Christ said",
-    "apText6": "The apostles preached the word that Jesus preached.",
-    "apVerse17": " Some time later Paul said to Barnabas, “Let us go back and visit the brothers in every town where we proclaimed the word of the Lord, to see how they are doing.” ",
-    "apRef17": "Acts 15:36",
+    "jVerse4": "",
+    "jRef4": "",
+    "jText4": "",
 
-    "apSub7": "How did the apostles preach the gospel?",
-    "apVerse18": "But you will receive power when the Holy Spirit comes upon you, and you will be My witnesses.",
-    "apRef18": "Acts 1:8",
-    "apText7": "The apostles did not preach the gospel by routine and rational narration of what they saw, but in the power of the Holy Spirit.",
+    "jSub4": "We are to worship only God",
 
-    "apSub8": "What is the evidence of the true gospel?",
-    "apVerse19": "I am not ashamed of the gospel, because it is the power of God for salvation to everyone who believes, first to the Jew, then to the Greek.",
-    "apRef19": "Romans 1:16",
+    "jVersex5": "For you must not worship any other god, for the Lord, whose name is Jealous, is a jealous God.",
+    "jRefx5": "Exodus 34:14",
+    "jVersexx5": "Furthermore, the Father judges no one, but has assigned all judgment to the Son, so that all may honor the Son just as they honor the Father. Whoever does not honor the Son does not honor the Father who sent Him.",
+    "jRefxx5": "John 5:22-23",
+    "jText5": "We are to give honor and glory to Jesus, otherwise we are not honoring God.",
 
-    "apText8": "The salvation of a sinner is possible only through faith in Jesus Christ, which is manifested by obedience to His Word.",
+    "jSub5": "Creation is to bow down just before God alone",
 
-    "apVerse20": "For the gospel reveals the righteousness of God that comes by faith from start to finish, just as it is written: “The righteous will live by faith.”",
-    "apRef20": "Romans 1:17",
-    "apText9": "God's justice is revealed in faith in the resurrection and in following Jesus Christ.",
+    "jVerse5": "And I am John, who heard and saw these things. And when I had heard and seen them, I fell down to bow down at the feet of the angel who had shown me these things. But he said to me, “Do not do that! I am a fellow servant with you and your brothers the prophets, and with those who keep the words of this book. Bow before God!”",
+    "jRef5": "Revelation 22:8-9",
+    "jVerse6": "And again, when God brings His firstborn into the world, He says: “Let all God’s angels bow down before Him.”",
+    "jRef6": "Hebrews 1:6",
+    "jText6": " God's creation is to worship Jesus.",
 
-    "apSub9": "Not proclaiming the resurrection is a violation of God's command",
+    "jSub6": "Only God can rule over everything",
+    "jVerse7": "The Most High rules over the kingdom of mankind and gives it to whom He wishes.",
+    "jRef7": "Daniel 4:32",
+    "jVerse8": "Then Jesus came to them and said, “All authority in heaven and on earth has been given to Me.”",
+    "jRef8": "Matthew 28:18",
+    "jText7": "God entrusted all the reign to Jesus.",
 
-    "apVerse21": "God, whom I serve with my spirit  in preaching the gospel of His Son, is my witness how constantly I remember you.",
-    "apRef21": "Romans 1:9",
+    "jSub7": "Jesus is not an angel",
+    "jVerse9": "So He became as far superior to the angels as the name He has inherited is excellent beyond theirs. 5For to which of the angels did God ever say: “You are My Son; today I have become Your Father”? Or again: “I will be His Father, and He will be My Son.” ",
+    "jRef9": "Hebrews 1:4-5",
+    "jVerse10": "For it is not to angels that He has subjected the world to come, about which we are speaking.",
+    "jRef10": "Hebrews 2:5",
 
-    "apText10": "Paul serves God by preaching the gospel of His Son. If the disciples did not proclaim what they had witnessed, they would have violated God's command.",
+    "jSub8": "The prophet Isaiah predicts Him as God",
+    "jVerse11": "For unto us a child is born, unto us a son is given, and the government will be upon His shoulders. And He will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.",
+    "jRef11": "Izaiah 9:6",
 
-    "apVerse22": "But Peter and John replied, “Judge for yourselves whether it is right in God’s sight to listen to you rather than God. For we cannot stop speaking about what we have seen and heard.”",
-    "apRef22": "Acts 4:19-20",
-    "apVerse23": "I am amazed how quickly you are deserting the One who called you by the grace of Christ and are turning to a different gospel - which is not even a gospel. Evidently some people are troubling you and trying to distort the gospel of Christ. But even if we or an angel from heaven should preach a gospel contrary to the one we preached to you, let him be under a curse! As we have said before, so now I say again: If anyone is preaching to you a gospel contrary to the one you received, let him be under a curse!",
-    "apRef23": "Galatians 1:6-9 "
+    "jSub9": "The Word that became flesh is God",
+
+    "jVerse12": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "jRef12": "John 1:1",
+    "jText8": "Greek original refers to God with the word theón and theós: “Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν (theón), καὶ θεὸς (theós) ἦν ὁ λόγος.”",
+    "jVerse13": "The Word became flesh and made His dwelling among us. We have seen His glory, the glory of the one and only Son  from the Father, full of grace and truth.",
+    "jRef13": "John 1:14",
+    "jText9": " Jesus came into the world in the flesh, so He is that Word.",
+
+    "jSub10": "I AM is God",
+
+    "jVerse14": " God said to Moses, “I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’”",
+    "jRef14": "Exodus 3:14",
+    "jVerse15": "I am telling you now before it happens, so that when it comes to pass, you will believe that I AM (He).",
+    "jRef15": "John 13:19",
+    "jVerse16": "“Truly, truly, I tell you,” Jesus declared, “before Abraham was born, I AM!”",
+    "jRef16": "John 8:58",
+
+    "jVerse17": "That is why I told you that you would die in your sins. For unless you believe that I AM (He), you will die in your sins.",
+    "jRef17": "John 8:24",
+
+    "jSub11": "The disciple testifies that Jesus is God",
+    "jVerse18": "Eight days later, His disciples were once again inside with the doors locked, and Thomas was with them. Jesus came and stood among them and said, “Peace be with you.” Then Jesus said to Thomas, “Put your finger here and look at My hands. Reach out your hand and put it into My side. Stop doubting and believe.” Thomas replied, “My Lord and my God!” ",
+    "jRef18": "John 20:26-28",
+
+    "jSub12": "Paul the apostle refers to Jesus as God",
+    "jVerse19": "Theirs are the patriarchs, and from them proceeds the human descent of Christ, who is God over all, forever worthy of praise!",
+    "jRef19": "Romans 9:5",
+    "jText10": "Likewise, the Greek original does not divide this sentence into two, but continues it with a comma before the word God (theós) without interruption: “ὧν οἱ πατέρες, καὶ ἐξ ὧν ὁ χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ πάντων, θεὸς (theós) εὐλογητὸς εἰς τοὺς αἰῶνας· ἀμήν.”",
+
+    "jSub13": "God Himself addresses Jesus as God",
+
+    "jVerse20": "But about the Son He (God) says: “Your throne, O God, endures forever and ever, and justice is the scepter of Your kingdom. You have loved righteousness and hated wickedness; therefore God, Your God, has anointed You above Your companions with the oil of joy.”",
+    "jRef20": "Hebrews 1:8-9"
   }
 }
