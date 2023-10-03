@@ -10,7 +10,7 @@ const LanguageBar = ({ language, setLanguage }) => {
     <div className='flex flex-row gap-3 items-center translate-y-[7.5%]'>
       <button onClick={() => handleLanguage('english')}>
         <img
-          className='w-[3rem] md:w-[4rem] lg:w-[2rem]'
+          className='w-[3rem] md:w-[3rem] lg:w-[2rem]'
           src='/english.webp'
           alt='english'
         />
@@ -18,7 +18,7 @@ const LanguageBar = ({ language, setLanguage }) => {
 
       <button onClick={() => handleLanguage('slovak')}>
         <img
-          className='w-[3rem] md:w-[4rem] lg:w-[2rem]'
+          className='w-[3rem] md:w-[3rem] lg:w-[2rem]'
           src='/slovak.webp'
           alt='slovak'
         />
