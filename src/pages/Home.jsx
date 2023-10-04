@@ -4,6 +4,7 @@ import CookieConsent from 'react-cookie-consent'
 import axios from 'axios'
 import Translation from '../Home.json'
 import { useStateContext } from '../context/StateContext'
+import LanguageBar from '../components/LanguageBar'
 
 const Home = () => {
   const { language, setLanguage } = useStateContext()
@@ -40,7 +41,10 @@ const Home = () => {
   return (
     <>
       <header className='hero-bg h-[100vh]'>
-        <HeaderHome language={language} setLanguage={setLanguage} />
+        <div className='flex lg:flex absolute top-2 right-8 lg:right-20'>
+          <LanguageBar language={language} setLanguage={setLanguage} />
+        </div>{' '}
+        {/* <HeaderHome language={language} setLanguage={setLanguage} /> */}
         <h1 className='text-[45px] text-brown3 text-center pt-[20%] lg:pt-[5%]'>
           {content.heroTitle}
           {/* Svedok je ten, kto mal osobnú skúsenosť a o nej vypovedá */}

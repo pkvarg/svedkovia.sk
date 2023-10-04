@@ -58,9 +58,15 @@ const Footer = () => {
           </a>
           <p className='hidden lg:flex pb-4'>|</p>
 
-          <a href='https://jwfakty.sk' target='_blank'>
-            jwfakty.sk
-          </a>
+          {language === 'slovak' || language === 'czeh' ? (
+            <a href='https://jwfakty.sk' target='_blank'>
+              jwfakty.sk
+            </a>
+          ) : (
+            <a href='https://jwfacts.com' target='_blank'>
+              jwfacts.com
+            </a>
+          )}
         </div>
         <div className='flex justify-center text-[#8d8d8d] mt-2'>
           <a href='https://pictusweb.sk'>
