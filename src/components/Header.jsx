@@ -97,7 +97,7 @@ const Header = ({ language, setLanguage }) => {
                   </a>
                 </li>
                 <li className=''>
-                  <LanguageBar language={language} setLanguage={setLanguage} />
+                  {/* <LanguageBar language={language} setLanguage={setLanguage} /> */}
                 </li>
               </ul>
             </div>

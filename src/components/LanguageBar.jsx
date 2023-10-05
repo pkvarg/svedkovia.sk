@@ -23,6 +23,14 @@ const LanguageBar = ({ language, setLanguage }) => {
           alt='slovak'
         />
       </button>
+
+      <button onClick={() => handleLanguage('czech')}>
+        <img
+          className='w-[3rem] md:w-[3rem] lg:w-[2rem]'
+          src='/czech.webp'
+          alt='czech'
+        />
+      </button>
     </div>
   )
 }
