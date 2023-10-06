@@ -58,11 +58,18 @@ const Footer = () => {
           </a>
           <p className='hidden lg:flex pb-4'>|</p>
 
-          {language === 'slovak' || language === 'czeh' ? (
+          {language === 'slovak' && (
             <a href='https://jwfakty.sk' target='_blank'>
               jwfakty.sk
             </a>
-          ) : (
+          )}
+
+          {language === 'czech' && (
+            <a href='https://jwfakty.sk' target='_blank'>
+              jwfakty.sk
+            </a>
+          )}
+          {language === 'english' && (
             <a href='https://jwfacts.com' target='_blank'>
               jwfacts.com
             </a>
