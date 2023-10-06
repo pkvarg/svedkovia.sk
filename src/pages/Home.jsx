@@ -45,7 +45,7 @@ const Home = () => {
           <LanguageBar language={language} setLanguage={setLanguage} />
         </div>{' '}
         {/* <HeaderHome language={language} setLanguage={setLanguage} /> */}
-        <h1 className='text-[45px] text-brown3 text-center pt-[20%] lg:pt-[5%]'>
+        <h1 className='text-[45px] text-brown3 text-center pt-[70%] lg:pt-[5%] lg:mx-4'>
           {content.heroTitle}
           {/* Svedok je ten, kto mal osobnú skúsenosť a o nej vypovedá */}
         </h1>

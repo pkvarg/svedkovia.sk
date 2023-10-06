@@ -17,6 +17,8 @@ const Apostoli = () => {
     }
   }, [language])
 
+  console.log(language)
+
   return (
     <>
       <Header language={language} setLanguage={setLanguage} />
@@ -83,6 +85,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse4}
               {/* Ale zamordovali ste Vodcu života, ktorého Boh vzkriesil z mŕtvych;
               a my sme svedkami toho. */}
@@ -93,6 +96,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse5}
               {/* Vedzte teda vy všetci, aj všetok ľud izraelský, že tento človek
               stojí pred vami zdravý v mene Ježiša Krista Nazaretského, ktorého
@@ -104,6 +108,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse6}
               {/* Apoštolovia však veľmi mocne vydávali svedectvo o vzkriesení Pána
               Ježiša a veľká milosť spočinula na nich na všetkých.{' '} */}
@@ -114,6 +119,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse7}
               {/* Boh našich otcov vzkriesil Ježiša, ktorého ste vy zamordovali, keď
               ste Ho povesili na drevo. Toho Boh povýšil svojou pravicou za
@@ -127,6 +133,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse8}
               {/* Ale neprestali deň čo deň učiť v chráme a po domoch a zvestovať
               evanjelium Krista Ježiša.{' '} */}
@@ -137,6 +144,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse9}
               {/* A my sme svedkami všetkého, čo činil v Judsku a v Jeruzaleme, ako
               Ho aj zamordovali, povesiac Ho na drevo. Toho Boh vzkriesil v
@@ -148,6 +156,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse10}
               {/* Až na jediný výkrik, ktorý som zavolal, stojac medzi nimi: Pre
               vzkriesenie z mŕtvych ma dnes súdite.{' '} */}
@@ -197,6 +206,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse13}
               {/* Amen, amen, hovorím ti: Ak sa niekto nenarodí z vody a z Ducha,
               nemôže vojsť do Božieho kráľovstva. Na to mu Nikodém odpovedal:
@@ -232,6 +242,7 @@ const Apostoli = () => {
             o Pánovi Ježišovi. */}
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse15}
               {/* Ale niektorí z nich boli z Cypru a z Kyrény, a keď prišli do
               Antiochie, hovorili aj Grékom a zvestovali Pána Ježiša.{' '} */}
@@ -242,6 +253,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse16}
               {/* Predvolali si ich teda a prikázali im, aby nikdy viac ani
               nehovorili ani neučili v mene Ježišovom.{' '} */}
@@ -317,6 +329,7 @@ const Apostoli = () => {
             poslušnosti Jeho Slovu. */}
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse20}
               {/* Zjavuje sa v ňom zaiste spravodlivosť Božia z viery pre vieru, ako
               je napísané: Spravodlivý z viery bude žiť.{' '} */}
@@ -347,6 +360,8 @@ const Apostoli = () => {
               {content.apRef21} {/* Rimanom 1:9  */}
             </span>
             {content.apText10}
+            <br />
+            {content.apText10a}
             {/* Pavol slúži Bohu tým, že zvestuje evanjelium Jeho Syna. Ak by
             učeníci nehlásali to, čoho boli očitými svedkami, porušili by príkaz
             Boha. */}
@@ -363,6 +378,7 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.apVerse23}
               {/* Čudujem sa, že od Toho, ktorý vás povolal v milosti Kristovej, sa
               tak rýchlo odvraciate k inému evanjeliu, ktoré ani nie je iné

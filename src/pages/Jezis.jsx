@@ -52,6 +52,7 @@ const Jezis = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.jVerse2}
               {/* Ním (Slovom, ktoré sa stalo telom) povstalo všetko a bez Neho
               nepovstalo nič, čo povstalo.{' '} */}
@@ -73,24 +74,6 @@ const Jezis = () => {
             {content.jText2}
             {/* Svet Ježišom povstal, bol Ním stvorený. */}
           </p>
-          <h2 className='text-center text-[25px] mt-4'>
-            {content.jSub3}
-            {/* Len Boh môže súdiť */}
-          </h2>
-          <p>
-            <span className='italic'>
-              {' '}
-              {content.jVerse4}
-              {/* A Otec ani nesúdi nikoho, ale celý súd odovzdal Synovi, aby všetci
-              ctili Syna tak, ako ctia Otca. */}
-            </span>
-            <span className='text-[20px]'>
-              {' '}
-              {content.jRef4} {/* Ján 5:22 */}
-            </span>
-            {content.jText4}
-            {/* Boh zveril Ježišovi Svoju autoritu. */}
-          </p>
 
           <h2 className='text-center text-[25px] mt-4'>
             {content.jSub4}
@@ -110,6 +93,7 @@ const Jezis = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.jVersexx5}
               {/* A Otec ani nesúdi nikoho, ale celý súd odovzdal Synovi, aby všetci
               ctili Syna tak, ako ctia Otca. Kto nectí Syna, nectí ani Otca,
@@ -142,6 +126,7 @@ const Jezis = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.jVerse6}
               {/* A keď zase uvedie Prvorodeného na svet, hovorí: Nech padnú pred
               Ním na kolená všetci anjeli Boží! */}
@@ -171,6 +156,7 @@ const Jezis = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.jVerse8}
               {/* Ježiš pristúpil a povedal im: „Daná mi je všetka moc na nebi aj na
               zemi. */}
@@ -256,6 +242,7 @@ const Jezis = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.jVerse13}
               {/* A to Slovo stalo sa telom, prebývalo medzi nami, a my sme hľadeli
               na Jeho slávu ako na slávu jednorodeného od Otca, (bolo) plné
@@ -288,6 +275,7 @@ const Jezis = () => {
 
             <span className='italic'>
               {' '}
+              <br />
               {content.jVerse15}
               {/* Hovorím vám to už teraz, skôr, ako sa to stane, aby ste uverili,
               keď sa to stane, že ja SOM.{' '} */}

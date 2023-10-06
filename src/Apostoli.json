@@ -63,7 +63,7 @@
     "apVerse19": "Veď ja sa nehanbím za evanjelium (Kristovo): lebo mocou Božou je ono na spasenie každému veriacemu, najprv Židovi, a aj Grékovi.",
     "apRef19": "Rimanom 1:16",
 
-    "apText8": "Spasenie hriešnika je možné len skrze vieru v Ježiša Krista a poslušnosti Jeho Slovu.",
+    "apText8": "Spasenie hriešnika je možné len skrze vieru v Ježiša Krista, ktorá sa prejavuje poslušnosťou Jeho Slovu.",
 
     "apVerse20": "Zjavuje sa v ňom zaiste spravodlivosť Božia z viery pre vieru, ako je napísané: Spravodlivý z viery bude žiť.",
     "apRef20": "Rimanom 1:17",
@@ -74,7 +74,9 @@
     "apVerse21": "Veď Boh, ktorému slúžim svojím duchom zvesťou evanjelia Jeho Syna, je mi svedkom, ako neprestajne spomínam na vás.",
     "apRef21": "Rimanom 1:9",
 
-    "apText10": "Pavol slúži Bohu tým, že zvestuje evanjelium Jeho Syna. Ak by učeníci nehlásali to, čoho boli očitými svedkami, porušili by príkaz Boha.",
+    "apText10": "Pavol slúži Bohu tým, že zvestuje evanjelium Jeho Syna.",
+
+    "apText10a": "Ak by učeníci nehlásali to, čoho boli očitými svedkami, porušili by príkaz Boha.",
 
     "apVerse22": "Ale Peter a Ján odpovedali im takto: Súďte, či je spravodlivé pred Bohom poslúchať viac vás ako Boha! Lebo my nemôžeme nehovoriť o tom, čo sme videli a počuli. ",
     "apRef22": "Skutky apoštolov 4:19-20",
@@ -158,7 +160,8 @@
     "apVerse21": "God, whom I serve with my spirit  in preaching the gospel of His Son, is my witness how constantly I remember you.",
     "apRef21": "Romans 1:9",
 
-    "apText10": "Paul serves God by preaching the gospel of His Son. If the disciples did not proclaim what they had witnessed, they would have violated God's command.",
+    "apText10": "Paul serves God by preaching the gospel of His Son.",
+    "apText10a": "If the disciples did not proclaim what they had witnessed, they would have violated God's command.",
 
     "apVerse22": "But Peter and John replied, “Judge for yourselves whether it is right in God’s sight to listen to you rather than God. For we cannot stop speaking about what we have seen and heard.”",
     "apRef22": "Acts 4:19-20",

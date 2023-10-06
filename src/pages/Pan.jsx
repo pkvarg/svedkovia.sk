@@ -62,6 +62,7 @@ const Pan = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.pVerse3}
               {/* Ktorý je podľa Ducha svätosti ustanovený od vzkriesenia z mŕtvych
               ako Boží Syn s mocou - o Ježišovi Kristovi, našom Pánovi.{' '} */}
@@ -75,6 +76,7 @@ const Pan = () => {
             ako aj za Pána veriacich v rímskej cirkvi. */}
             <span className='italic'>
               {' '}
+              <br />
               {content.pVerse4}
               {/* Ani vysokosť, ani hlbokosť, ani nijaké iné stvorenstvá nemôžu nás
               odlúčiť od lásky Božej, ktorá je v Kristovi Ježišovi, našom
@@ -112,6 +114,7 @@ const Pan = () => {
             poslúcha verný otrok svojho telesného pána. */}
             <span className='italic'>
               {' '}
+              <br />
               {content.pVerse6}
               {/* Ujal sa ho však Barnabáš a uvedúc ho k apoštolom, rozpovedal im,
               ako na ceste videl Pána a že hovoril s Ním, aj ako neohrozene
@@ -139,6 +142,7 @@ const Pan = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.pVerse8}
               {/* S mužmi, ktorí životy nasadili pre meno nášho Pána Ježiša Krista.{' '} */}
             </span>
@@ -151,6 +155,7 @@ const Pan = () => {
             byť tak, že uctievajú Boha Otca a nemajú žiaden vzťah s Ježišom
             Kristom. Nemali by žiadnu motiváciu za Neho riskovať. */}
             <span className='italic'>
+              <br />
               {content.pVerse9}
               {/* Alebo či sa snažím ľuďom ľúbiť? Ak by som sa ešte (chcel) ľúbiť
               ľuďom, nebol by som služobníkom Kristovým.{' '} */}
@@ -193,6 +198,8 @@ const Pan = () => {
             neho môže nasledovník Pána spoznať svojho Pána a spoznať ako sa má
             správať a čo vo svojom živote robiť. */}
             <span className='italic'>
+              {' '}
+              <br />
               {content.pVerse11}
               {/* Neprestajne sa modlite! */}
             </span>
@@ -250,6 +257,7 @@ const Pan = () => {
             </span>
             <span className='italic'>
               {' '}
+              <br />
               {content.pVerse15}
               {/* Preto, ako ste prijali Krista Ježiša, Pána, v Ňom žite.{' '} */}
             </span>
