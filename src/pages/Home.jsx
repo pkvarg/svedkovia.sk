@@ -433,7 +433,7 @@ const Home = () => {
           </span>
           <span className='text-[20px]'>
             {' '}
-            {content.homeVerse24}
+            {content.homeRef23}
             {/* Skutky apoštolov 9:17 */}
           </span>
           <span className='font-bold'>
@@ -444,8 +444,6 @@ const Home = () => {
         </p>
       </main>
 
-      <span className='italic'></span>
-      <span className='text-[20px]'></span>
       <CookieConsent
         location='bottom'
         style={{
