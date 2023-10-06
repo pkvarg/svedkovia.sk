@@ -1,6 +1,6 @@
 {
   "slovak": {
-    "sTitle": "Večer Pánova",
+    "sTitle": "Večera Pánova",
     "sSub1": "Chceš si uctiť pamiatku Ježiša Krista?",
 
     "sVerse1": "Nato vzal chlieb, dobrorečil, lámal a dával im, hovoriac: Toto je moje telo, ktoré sa vydáva za vás; to čiňte na moju pamiatku. A podobne (vzal) po večeri kalich a hovoril: Tento kalich je nová zmluva v mojej krvi, ktorá sa vylieva za vás.",
@@ -36,7 +36,7 @@
     "sVerse8": "Povedal Mu Peter: Pane, nikdy mi nebudeš umývať nohy! Odpovedal mu Ježiš: Ak ťa neumyjem, nemáš so mnou podiel.",
     "sRef8": "Ján 13:8",
 
-    "sText4": "Tento úkon je nariadením Pána a podmienkou toho, aby s Ním mal veriaci podiel. Keď teda ja, Pán a Majster, umyl som vám nohy, aj vy ste povinní navzájom si umývať nohy.",
+    "sText4": "Tento úkon je nariadením Pána a podmienkou toho, aby s Ním mal veriaci podiel.",
 
     "sVerse10": "Keď teda ja, Pán a Majster, umyl som vám nohy, aj vy ste povinní navzájom si umývať nohy.",
     "sRef10": "Ján 13:14",
@@ -107,5 +107,60 @@
 
     "sVerse12": "Therefore, whoever eats the bread or drinks the cup of the Lord in an unworthy manner will be guilty of sinning against the  body and blood of the Lord. Each one must examine himself before he eats of the bread and drinks of the cup. For anyone who eats and drinks without recognizing the body  eats and drinks judgment on himself.",
     "sRef12": "First Corinthians 11:27-29"
+  },
+
+  "czech": {
+    "sTitle": "Večeře Páně",
+    "sSub1": "Chceš si uctít památku Ježíše Krista?",
+
+    "sVerse1": "Nato vzal chléb, dobrořečil, lámal a dával jim, řka: Toto je mé tělo, které se vydává za vás; to čiňte na mou památku. A podobně (vzal) po večeři kalich a říkal: Tento kalich je nová smlouva v mé krvi, která se vylévá za vás.",
+    "sRef1": "Lukáš 22:19-20",
+    "sText1": "Tělo se provdalo za všechny lidi. I krev tekla za všechny lidi.",
+    "sVerse2": " Jistěže proto se unouváme a zápasíme, neboť máme naději v živém Bohu, který je Spasitelem všech lidí, zejména věřících.",
+    "sRef2": "První Timoteovi 4:10",
+
+    "sSub2": "Chceš svědčit o Jeho smrti?",
+
+    "sVerse3": "Neboť kdykoli byste jedli tento chléb a pili z kalicha, zvěstujete smrt Páně, dokud nepřijde! ",
+    "sRef3": "První Korintským 11:26",
+    "sText2": "Kdo je svědkem smrti a vzkříšení Ježíše Krista? Každý, kdo Ho přijal. Proto přijímat chléb a víno má každý, ve kterém Duch Páně přebývá. ",
+
+    "sVerse4": "Kdo vyznává Syna, má také Otce.",
+    "sRef4": "První Janův 2:23",
+
+    "sSub3": "Chceš mít věčný život?",
+
+    "sVerse5": "Řekl jim Ježíš: Amen, amen, pravím vám: Nejíte-li tělo Syna člověka a nepijete Jeho krev, nemáte života v sobě. Kdo je mé tělo a pije mou krev, má věčný život, a já ho vzkřísím poslední den. Nebo mé tělo je pravý pokrm a má krev je pravý nápoj.",
+    "sRef5": "Jan 6:53-55",
+
+    "sSub4": "Chceš být v duchovním spojení s Ježíšem?",
+
+    "sVerse6": "Kdo je mé tělo a pije mou krev, zůstává ve mně a já v něm. Jak mě poslal živý Otec a já žiji skrze Otce, i ten, kdo mě jí, bude žít skrze mě.",
+    "sRef6": "Jan 6:56-57",
+
+    "sSub5": "Chceš mít podíl na Ježíšovi?",
+
+    "sVerse7": "Potom nalil vodu do umyvadla, začal mýt učedníkem nohy a utírat zástěrou, kterou byl opásán.",
+    "sRef7": "Jan 13:5",
+
+    "sVerse8": "Řekl Mu Petr: Pane, nikdy mi nebudeš mýt nohy! Ježíš mu odpověděl: Neumyji-li tě, nemáš se mnou podíl.",
+    "sRef8": "Jan 13:8",
+
+    "sText4": "Tento úkon je nařízením Pána a podmínkou toho, aby s Ním měl věřící podíl.",
+
+    "sVerse10": "Když tedy já, Pán a Mistr, umyl jsem vám nohy, i vy jste povinni navzájem si mýt nohy.",
+    "sRef10": "Jan 13:14",
+
+    "sText5": "Každý, kdo má Ježíše Krista za svého Pána, má povinnost konat tento úkon svému spolubratrovi.",
+
+    "sSub6": "Nezříkej se blahoslavenství",
+
+    "sVerse11": " Když to víte, blahoslavení jste, pokud podle toho také činíte. Nemluvím o všech vás, já vím, které jsem si vyvolil, ale aby se naplnilo Písmo: Ten, co jedl můj chléb, pozvedl patu proti mně.",
+    "sRef11": "Jan 13:17-18",
+
+    "sText6": "Ten, koho Ježíš Kristus je Pánem, si připomíná Jeho smrt a myje nohy spolubratřím, je blahoslavený. Avšak ne ten, koho Ježíš Kristus není Pánem, je ve vzpouře jako byl i Jidáš nebo ten, kdo nepřichází k večeři Páně s čistým srdcem nebo vnímá večeři Páně jako obyčejnou večeři:",
+
+    "sVerse12": "Proto kdokoli by nehodně jedl chléb nebo pil z kalicha Pánova, proviní se proti tělu a krvi Páně. Zkoumej se tedy, člověče, a tak jez z chleba a pij z kalicha; neboť kdo nehodně jí a pije, odsouzení si jí a pije, neboť nerozeznává tělo Pánovo.",
+    "sRef12": "První Korintským 11:27-29"
   }
 }

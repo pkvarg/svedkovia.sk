@@ -80,7 +80,7 @@
 
     "apVerse22": "Ale Peter a Ján odpovedali im takto: Súďte, či je spravodlivé pred Bohom poslúchať viac vás ako Boha! Lebo my nemôžeme nehovoriť o tom, čo sme videli a počuli. ",
     "apRef22": "Skutky apoštolov 4:19-20",
-    "apVerse23": "Čudujem sa, že od Toho, ktorý vás povolal v milosti Kristovej, sa tak rýchlo odvraciate k inému evanjeliu, ktoré ani nie je iné evanjelium. Sú však niektorí, čo robia zmätok medzi vami a chcú prekrútiť evanjelium Kristovo. Ale keby sme aj my, alebo keby vám anjel z neba zvestoval (iné) evanjelium miesto toho, ktoré sme vám my zvestovali, - nech je prekliaty! Ako sme prv povedali, aj teraz znovu hovorím: ak vám niekto zvestuje (iné) evanjelium miesto toho, ktoré ste prijali, - nech je prekliaty! ",
+    "apVerse23": "Čudujem sa, že od Toho, ktorý vás povolal v milosti Kristovej, sa tak rýchlo odvraciate k inému evanjeliu, ktoré ani nie je iné evanjelium. Sú však niektorí, čo robia zmätok medzi vami a chcú prekrútiť evanjelium Kristovo. Ale keby sme aj my, alebo keby vám anjel z neba zvestoval (iné) evanjelium miesto toho, ktoré sme vám my zvestovali, - nech je prekliaty! Ako sme prv povedali, aj teraz znovu hovorím: ak vám niekto zvestuje (iné) evanjelium miesto toho, ktoré ste prijali, nech je prekliaty!",
     "apRef23": "Galatským 1:6-9"
   },
 
@@ -167,5 +167,92 @@
     "apRef22": "Acts 4:19-20",
     "apVerse23": "I am amazed how quickly you are deserting the One who called you by the grace of Christ and are turning to a different gospel - which is not even a gospel. Evidently some people are troubling you and trying to distort the gospel of Christ. But even if we or an angel from heaven should preach a gospel contrary to the one we preached to you, let him be under a curse! As we have said before, so now I say again: If anyone is preaching to you a gospel contrary to the one you received, let him be under a curse!",
     "apRef23": "Galatians 1:6-9 "
+  },
+
+  "czech": {
+    "apTitle": "Co hlásali apoštolové?",
+    "apSub1": "Už Starý zákon svědčí o Ježíši Kristu",
+
+    "apVerse1": "Určili mu tedy den a sešlo se jich mnoho na jeho bytě. (Pavel) jim od rána až do večera vykládal, svědčil o království Božím a přesvědčoval je o Ježíši z Mojžíšova Zákona a z Proroků.",
+    "apRef1": "Skutky apoštolů 28:23",
+
+    "apVerse2": "Co bylo od počátku, co jsme slyšeli, co jsme viděli na vlastní oči, na co jsme se dívali a čeho se nám dotýkali ruce (o tom svědčíme, totiž) o Slově života. A ten život se zjevil, my jsme (Ho) viděli, svědčíme (o Něm) a zvěstujeme vám věčný život, který byl u Otce a zjevil se nám. Co jsme (tedy) viděli a slyšeli, zvěstujeme i vám, abyste i vy měli společenství s námi. Naše společenství aby bylo s Otcem a s Jeho Synem Ježíšem Kristem. Toto vám píšeme, aby naše radost byla úplná. ",
+    "apRef2": "První Janův 1:1-4",
+    "apText1": "Apoštolové svědčili o Ježíšovi, kterého fyzicky viděli, znali, kterého potkali po Jeho smrti a kterého viděli jak je unášen do nebe.",
+
+    "apSub2": "Svědčili o vzkříšení Ježíše Krista",
+    "apVerse3": "Tohto Ježiša vzkriesil Boh a my všetci sme svedkami toho.",
+    "apRef3": "Toho Ježíše vzkřísil Bůh a my všichni jsme svědky toho. Skutky apoštolů 2:32",
+    "apVerse4": "Ale zamordovali jste Vůdce života, kterého Bůh vzkřísil z mrtvých; a my jsme svědky toho. ",
+    "apRef4": "Skutky apoštolů 3:15",
+    "apVerse5": "Vězte tedy vy všichni, i všechen lid izraelský, že tento člověk stojí před vámi zdravý ve jménu Ježíše Krista Nazaretského, kterého jste vy ukřižovali, ale Bůh Ho vzkřísil z mrtvých.",
+    "apRef5": "Skutky apoštolů 4:10",
+
+    "apVerse6": "Apoštolové však velmi mocně vydávali svědectví o vzkříšení Pána Ježíše a velká milost spočinula na nich na všechny.",
+    "apRef6": "Skutky apoštolů 4:33",
+    "apVerse7": "Bůh našich otců vzkřísil Ježíše, kterého jste vy zamordovali, když jste ho pověsili na dřevo. Toho Bůh povýšil svou pravicí za Vůdce a Spasitele, aby dal Izraeli pokání a odpuštění hříchů. A svědky toho jsme my a Duch Svatý, kterého dal Bůh těm, kdo ho poslouchají.",
+    "apRef7": "Skutky apoštolů 5:30-32",
+    "apVerse8": " Ale nepřestali den co den učit v chrámu a po domech a zvěstovat evangelium Krista Ježíše. ",
+    "apRef8": "Skutky apoštolů 5:42",
+    "apVerse9": "A my jsme svědky všeho, co činil v Judsku a v Jeruzalémě, jak Ho i zamordovali, pověsíc Ho na dřevo. Toho Bůh vzkřísil třetí den a dal Mu zjevovat se. ",
+    "apRef9": "Skutky apoštolů 10:39-40",
+    "apVerse10": "Až na jediný výkřik, který jsem zavolal, stojící mezi nimi: Pro vzkříšení z mrtvých mě dnes soudíte. ",
+    "apRef10": "Skutky apoštolů 24:21",
+    "apText2": "Pavel byl souzen a bit proto, že svědčil o vzkříšeném Ježíši Kristu.",
+
+    "apSub3": "Svědčili o pokání skrze víru v Ježíše Krista",
+    "apVerse11": "Řekl jim: Tak je psáno, že Kristus musel trpět a třetího dne vstát z mrtvých a že se musí kázat v Jeho jménu pokání k odpuštění hříchů všem národům, počínaje od Jeruzaléma.",
+    "apRef11": "Lukáš 24:46-47",
+
+    "apSub4": "Svědčili o království Božím, do kterého vstoupí člověk jen skrze víru v Ježíše Krista",
+
+    "apVerse12": "A zcela směle a bez překážky kázal o království Božím a učil o Pánu Ježíši Kristu.",
+    "apRef12": "Skutky apoštolů 28:31",
+    "apVerse13": "Amen, amen, říkám ti: Pokud se někdo nenarodí z vody a z Ducha, nemůže vejít do Božího království. Na to mu Nikodém odpověděl: „Jak se to může stát?“ A jak Mojžíš vyzvedl hada na poušti, tak musí být vyzvednut i Syn člověka, aby každý, kdo v něho věří, měl věčný život.",
+    "apRef13": "Jan 3:5,9,14-15",
+    "apText3": "Kázání o království je opět jen kázání o Ježíši Kristu.",
+    "apSub5": "Svědčili o osobě Ježíše Krista",
+    "apVerse14": "S muži, kteří životy nasadili pro jméno našeho Pána Ježíše Krista.",
+    "apRef14": "Skutky apoštolů 15:26",
+    "apText4": "Tak zvěstovali evangelium, že riskovali vlastní životy za svědectví o Pánu Ježíši.",
+    "apVerse15": "Ale někteří z nich byli z Kypru a z Kyrény, a když přišli do Antiochie, mluvili také Řekům a zvěstovali Pána Ježíše.",
+    "apRef15": "Skutky apoštolů 11:20",
+    "apVerse16": "Předvolali si je tedy a přikázali jim, aby nikdy více ani nemluvili ani neučili ve jménu Ježíšově.",
+    "apRef16": "Skutky apoštolů 4:18 ",
+    "apText5": " Co tedy vadilo jejich protivníkům? Jméno Ježíš.",
+
+    "apSub6": "Svědčili o tom, co říkal Ježíš Kristus",
+    "apText6": "Slovo, které hlásal Pán Ježíš, to hlásali apoštolové.",
+    "apVerse17": "Za několik dní řekl Pavel Barnabášovi: Vraťme se a po všech městech, ve kterých jsme zvěstovali slovo Páně, ponavštěvujeme bratry, jak se mají.",
+    "apRef17": "Skutky apoštolů 15:36.",
+
+    "apSub7": "Jak apoštolové hlásali evangelium?",
+    "apVerse18": "Ale přijměte moc Ducha Svatého, který sestoupí na vás, a budete mi svědky.",
+    "apRef18": "Skutky apoštolů 1:8",
+    "apText7": "Apoštolové nehlásali evangelium rutinním a rozumovým vyprávěním o tom, co viděli, ale v moci Ducha Svatého",
+
+    "apSub8": "Co je důkazem pravého evangelia?",
+    "apVerse19": "Vždyť já se nestydím za evangelium (Kristovo): neboť mocí Boží je ono ke spasení každému věřícímu, nejprve Židovi, a také Řekovi.",
+    "apRef19": "Římanům 1:16",
+
+    "apText8": "Spasení hříšníka je možné jen skrze víru v Ježíše Krista, která se projevuje poslušností Jeho Slovu.",
+
+    "apVerse20": "Zjevuje se v něm zajisté spravedlnost Boží z víry pro víru, jak je psáno: Spravedlivý z víry bude žít.",
+    "apRef20": "Římanům 1:17",
+    "apText9": "Ve víře ve vzkříšení a v následování Ježíše Krista se zjevuje Boží spravedlnost.",
+
+    "apSub9": "Nehlásat vzkříšení je porušením Božího nařízení",
+
+    "apVerse21": "Vždyť Bůh, kterému sloužím svým duchem zvěstí evangelia Jeho Syna, je mi svědkem, jak neustále na vás vzpomínám.",
+    "apRef21": "Římanům 1:9",
+
+    "apText10": "Pavol slúži Bohu tým, že zvestuje evanjelium Jeho Syna.",
+
+    "apText10a": "Pavel slouží Bohu tím, že zvěstuje evangelium Jeho Syna. Pokud by učedníci nehlásali to, čeho byli očitými svědky, porušili by příkaz Boha.",
+
+    "apVerse22": "Ale Petr a Jan jim odpověděli takto: Souďte, zda je spravedlivé před Bohem poslouchat více vás než Boha! Neboť nemůžeme nemluvit o tom, co jsme viděli a slyšeli. ",
+    "apRef22": "Skutky apoštolů 4:19-20",
+    "apVerse23": "Divím se, že od Toho, který vás povolal v milosti Kristově, se tak rychle odvracíte k jinému evangeliu, které ani není jiné evangelium. Jsou však někteří, co dělají zmatek mezi vámi a chtějí překroutit evangelium Kristovo. Ale kdybychom i my, nebo kdyby vám anděl z nebe zvěstoval (jiné) evangelium místo toho, které jsme vám my zvěstovali, - ať je prokletý! Jak jsme dříve řekli, i nyní znovu říkám: jestliže vám někdo zvěstuje (jiné) evangelium místo toho, které jste přijali, - ať je prokletý!",
+    "apRef23": "Galatským 1:6-9"
   }
 }
