@@ -20,8 +20,9 @@ const Pan = () => {
   return (
     <>
       <Header language={language} setLanguage={setLanguage} />
-      <div className='bg-white text-[20px]'>
-        <h1 className='text-center text-[30px] py-8'>
+      <div className='bg-[#a19a93] text-[20px] text-white'>
+        <div className='pan h-[1100px]'></div>
+        <h1 className='text-center text-[30px] -mt-[600px] pb-8'>
           {content.pTitle}
           {/* Koho Pánom je Ježiš? */}
         </h1>

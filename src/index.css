@@ -44,6 +44,24 @@ body {
   background-image: linear-gradient(to right, #a79e8141, #b4b09979, #dad8ce);
 }
 
+.pan {
+  background-image: linear-gradient(to top, #a19a93, #87848400, #1c1a1a73),
+    url('/pan.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.vecera {
+  background-image: linear-gradient(to top, #8e562d, #611a1a8d, #11111100),
+    url('/vecera.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
 h1 {
   font-weight: 500;
 }
