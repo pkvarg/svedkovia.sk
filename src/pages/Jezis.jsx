@@ -20,8 +20,9 @@ const Jezis = () => {
   return (
     <>
       <Header language={language} setLanguage={setLanguage} />
-      <div className='bg-white text-[20px]'>
-        <h1 className='text-center text-[30px] py-8'>
+      <div className='bg-[#6dc3dd] text-[113945] text-[20px]'>
+        <div className='Boh h-[1000px] lg:h-[1100px]'></div>
+        <h1 className='text-center text-[30px] -mt-[700px]  lg:-mt-[500px] xl:-mt-[700px]  2xl:-mt-[570px] pb-8'>
           {content.jTitle}
           {/* Je Ježiš Boh? */}
         </h1>

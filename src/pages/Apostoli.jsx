@@ -22,8 +22,9 @@ const Apostoli = () => {
   return (
     <>
       <Header language={language} setLanguage={setLanguage} />
-      <div className='bg-white text-[20px]'>
-        <h1 className='text-center text-[30px] py-8'>
+      <div className='bg-[#895f11] text-white text-[20px]'>
+        <div className='apostoli h-[1100px]'></div>
+        <h1 className='text-center text-[30px] -mt-[700px]  lg:-mt-[700px] xl:-mt-[600px]  2xl:-mt-[550px] pb-8'>
           {content.apTitle}
           {/* Čo hlásali apoštoli */}
         </h1>
