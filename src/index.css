@@ -80,6 +80,14 @@ body {
   width: 100%;
 }
 
+.halftransparent {
+  background-color: rgba(0, 0, 0, 0.039);
+}
+
+.mobmenugrad {
+  background-image: linear-gradient(to right, #120909, #150808, #3b0909);
+}
+
 h1 {
   font-weight: 500;
 }

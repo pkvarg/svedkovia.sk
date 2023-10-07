@@ -4,7 +4,6 @@ import Apostoli from './pages/Apostoli'
 import Jezis from './pages/Jezis'
 import Pan from './pages/Pan'
 import Vecera from './pages/Vecera'
-import Footer from './components/Footer'
 import Counter from './pages/Counter'
 import ScrollToTop from './components/ScrollToTop'
 import { StateContext } from './context/StateContext'
@@ -23,7 +22,6 @@ function App() {
             <Route path='/counter' element={<Counter />} />
           </Routes>
           <ScrollToTop />
-          <Footer />
         </StateContext>
       </BrowserRouter>
     </>

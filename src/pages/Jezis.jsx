@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import Translation from '../JesusGod.json'
 import { useStateContext } from '../context/StateContext'
 
@@ -21,7 +22,7 @@ const Jezis = () => {
     <>
       <Header language={language} setLanguage={setLanguage} />
       <div className='bg-[#6dc3dd] text-[113945] text-[20px]'>
-        <div className='Boh h-[1000px] lg:h-[1100px]'></div>
+        <div className='Boh h-[1000px] lg:h-[1100px] -mt-[25%]  lg:-mt-[8%]'></div>
         <h1 className='text-center text-[30px] -mt-[700px]  lg:-mt-[500px] xl:-mt-[700px]  2xl:-mt-[570px] pb-8'>
           {content.jTitle}
           {/* Je Ježiš Boh? */}
@@ -371,6 +372,7 @@ const Jezis = () => {
             </span>
           </p>
         </div>
+        <Footer />
       </div>
     </>
   )

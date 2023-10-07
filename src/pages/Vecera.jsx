@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import Translation from '../Supper.json'
 import { useStateContext } from '../context/StateContext'
 
@@ -21,9 +22,9 @@ const Vecera = () => {
     <>
       <Header language={language} setLanguage={setLanguage} />
       <div className='bg-[#8e562d] text-white'>
-        <div className='vecera h-[1100px]'></div>
+        <div className='vecera h-[1100px] -mt-[25%]  lg:-mt-[8%]'></div>
         <div className='text-[20px]'>
-          <h1 className='text-center text-[30px] -mt-[700px]  lg:-mt-[700px] xl:-mt-[600px]  2xl:-mt-[550px] pb-8'>
+          <h1 className='text-center text-[30px] -mt-[700px] lg:-mt-[700px] xl:-mt-[600px]  2xl:-mt-[550px] pb-8'>
             {content.sTitle}
 
             {/* Večer Pánova */}
@@ -207,6 +208,7 @@ const Vecera = () => {
             </p>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   )

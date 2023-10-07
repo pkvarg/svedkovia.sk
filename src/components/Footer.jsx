@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import Translation from '../Home.json'
 import { useStateContext } from '../context/StateContext'
+import { useLocation } from 'react-router-dom'
 
 const Footer = () => {
   const { language } = useStateContext()
   const [content, setContent] = useState({})
+  const location = useLocation()
+  const path = location.pathname
 
   useEffect(() => {
     if (language === 'slovak') {
@@ -17,11 +20,18 @@ const Footer = () => {
   }, [language])
 
   return (
-    <footer className='homegradient'>
+    <footer className={path === '/' ? 'homegradient' : 'halftransparent'}>
       <section className='mx-4 pt-4 pb-4'></section>
-      <section className='mx-4 text-brown3 text-[20px] pb-8'>
-        <div className=''>
-          <ul className='flex flex-col lg:flex-row justify-center items-center text-brown3 text-[20px] gap-2 lg:gap-6 font-bolder'>
+      <section
+        className={
+          path === '/'
+            ? 'mx-4 text-brown3 text-[20px] pb-8'
+            : 'mx-4 text-white text-[20px] pb-8'
+        }
+      >
+        {/* <section className='mx-4 text-white text-[20px] pb-8'> */}
+        <div>
+          <ul className='flex flex-col lg:flex-row justify-center items-center  text-[20px] gap-2 lg:gap-6 font-bolder'>
             <li>
               <a href='/co-hlasali-apostoli'>
                 {content.ftLi1}
@@ -75,7 +85,7 @@ const Footer = () => {
             </a>
           )}
         </div>
-        <div className='flex justify-center text-[#8d8d8d] mt-2'>
+        <div className='flex justify-center mt-2'>
           <a href='https://pictusweb.sk'>
             &#60;&#47;&#62; PICTUSWEB development
           </a>

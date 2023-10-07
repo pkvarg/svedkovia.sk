@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import Translation from '../Lord.json'
 import { useStateContext } from '../context/StateContext'
 
@@ -21,7 +22,7 @@ const Pan = () => {
     <>
       <Header language={language} setLanguage={setLanguage} />
       <div className='bg-[#a19a93] text-[20px] text-white'>
-        <div className='pan h-[1100px]'></div>
+        <div className='pan h-[1100px] -mt-[25%]  lg:-mt-[8%]'></div>
         <h1 className='text-center text-[30px] -mt-[600px] pb-8'>
           {content.pTitle}
           {/* Koho Pánom je Ježiš? */}
@@ -279,9 +280,8 @@ const Pan = () => {
             </span>
           </p>
         </div>
+        <Footer />
       </div>
-      <span className='italic'></span>
-      <span className='text-[20px]'></span>
     </>
   )
 }

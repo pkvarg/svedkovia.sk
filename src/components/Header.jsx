@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import LanguageBar from './LanguageBar'
 import Translation from '../Home.json'
+import { useLocation } from 'react-router-dom'
 
 const Header = ({ language, setLanguage }) => {
   const [navbar, setNavbar] = useState(false)
   const [content, setContent] = useState({})
+  const location = useLocation()
+  const path = location.pathname
 
   useEffect(() => {
     if (language === 'slovak') {
@@ -17,12 +19,16 @@ const Header = ({ language, setLanguage }) => {
   }, [language])
 
   return (
-    <header className='homegradient'>
+    // <header className='homegradient'>
+    <header
+      className='bg-[#9c948e]
+      '
+    >
       <nav className='w-full text-white nav-font'>
         <div className='justify-between px-4 mx-auto md:items-center md:flex md:px-8'>
           <div className='mb-0'>
             <div className='flex items-center justify-between py-3 md:py-5 md:block'>
-              <a className='text-[25px] font-medium text-brown3' href='/'>
+              <a className='text-[25px] font-medium text-white' href='/'>
                 {content.headerTitle}
                 {/* Svedkovia */}
               </a>
@@ -66,11 +72,11 @@ const Header = ({ language, setLanguage }) => {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 h-[300px] lg:h-0 ${
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className='justify-center text-brown3 text-[20px] gap-3 lg:gap-6 font-bolder flex flex-col lg:flex-row'>
+              <ul className='justify-center text-white lg:text-white text-[20px] gap-3 lg:gap-6 font-bolder flex flex-col lg:flex-row'>
                 <li>
                   <a href='/co-hlasali-apostoli'>
                     {content.ftLi1}

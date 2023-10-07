@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import Translation from '../Apostoli.json'
 import { useStateContext } from '../context/StateContext'
 
@@ -17,13 +18,11 @@ const Apostoli = () => {
     }
   }, [language])
 
-  console.log(language)
-
   return (
     <>
       <Header language={language} setLanguage={setLanguage} />
       <div className='bg-[#895f11] text-white text-[20px]'>
-        <div className='apostoli h-[1100px]'></div>
+        <div className='apostoli h-[1100px] -mt-[25%]  lg:-mt-[8%]'></div>
         <h1 className='text-center text-[30px] -mt-[700px]  lg:-mt-[700px] xl:-mt-[600px]  2xl:-mt-[550px] pb-8'>
           {content.apTitle}
           {/* Čo hlásali apoštoli */}
@@ -399,9 +398,8 @@ const Apostoli = () => {
             <span className='text-[20px]'></span>
           </p>
         </div>
+        <Footer />
       </div>
-      <span className='italic'></span>
-      <span className='text-[20px]'></span>
     </>
   )
 }

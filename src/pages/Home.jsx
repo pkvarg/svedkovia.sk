@@ -5,6 +5,7 @@ import axios from 'axios'
 import Translation from '../Home.json'
 import { useStateContext } from '../context/StateContext'
 import LanguageBar from '../components/LanguageBar'
+import Footer from '../components/Footer'
 
 const Home = () => {
   const { language, setLanguage } = useStateContext()
@@ -35,8 +36,6 @@ const Home = () => {
       config
     )
   }
-
-  console.log('sv:', language)
 
   return (
     <>
@@ -443,6 +442,7 @@ const Home = () => {
           </span>
         </p>
       </main>
+      <Footer />
 
       <CookieConsent
         location='bottom'
