@@ -48,9 +48,11 @@ const Jezis = () => {
               {' '}
               {content.jRef1} {/* Genesis 1:1 */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.jVerse2}
               {/* Ním (Slovom, ktoré sa stalo telom) povstalo všetko a bez Neho
               nepovstalo nič, čo povstalo.{' '} */}
@@ -89,9 +91,11 @@ const Jezis = () => {
               {' '}
               {content.jRefx5} {/* Exodus 34:14  */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.jVersexx5}
               {/* A Otec ani nesúdi nikoho, ale celý súd odovzdal Synovi, aby všetci
               ctili Syna tak, ako ctia Otca. Kto nectí Syna, nectí ani Otca,
@@ -122,9 +126,11 @@ const Jezis = () => {
               {' '}
               {content.jRef5} {/* Zjavenie Jána 22:8-9  */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.jVerse6}
               {/* A keď zase uvedie Prvorodeného na svet, hovorí: Nech padnú pred
               Ním na kolená všetci anjeli Boží! */}
@@ -152,9 +158,11 @@ const Jezis = () => {
               {' '}
               {content.jRef7} {/* Daniel 4:29 */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.jVerse8}
               {/* Ježiš pristúpil a povedal im: „Daná mi je všetka moc na nebi aj na
               zemi. */}
@@ -185,7 +193,9 @@ const Jezis = () => {
               {' '}
               {content.jRef9} {/* Židom 1:4-5  */}
             </span>
-            <br />
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
               {content.jVerse10}
@@ -238,9 +248,11 @@ const Jezis = () => {
               {/* “Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν (theón), καὶ
               θεὸς (theós) ἦν ὁ λόγος.” */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.jVerse13}
               {/* A to Slovo stalo sa telom, prebývalo medzi nami, a my sme hľadeli
               na Jeho slávu ako na slávu jednorodeného od Otca, (bolo) plné
@@ -270,10 +282,11 @@ const Jezis = () => {
               {' '}
               {content.jRef14} {/* Exodus 3:14  */}
             </span>
+          </p>
 
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.jVerse15}
               {/* Hovorím vám to už teraz, skôr, ako sa to stane, aby ste uverili,
               keď sa to stane, že ja SOM.{' '} */}

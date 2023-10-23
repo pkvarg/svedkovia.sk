@@ -156,6 +156,9 @@ const Vecera = () => {
               {content.sText4}
               {/* Tento úkon je nariadením Pána a podmienkou toho, aby s Ním mal
             veriaci podiel. */}
+            </p>
+
+            <p className='mt-2'>
               <span className='italic'>
                 {' '}
                 {content.sVerse10}
@@ -188,7 +191,9 @@ const Vecera = () => {
                 {' '}
                 {content.sRef11} {/* Ján 13:17-18 */}
               </span>
-              {content.sText6} <br />
+              {content.sText6}
+            </p>
+            <p className='mt-2'>
               {content.sText7}{' '}
               {/* Ten, koho Ježiš Kristus je Pánom, si pripomína Jeho smrť a umýva
             nohy spolubratom, je blahoslavený. Avšak nie ten, koho Ježiš Kristus

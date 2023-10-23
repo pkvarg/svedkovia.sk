@@ -65,7 +65,8 @@ const Apostoli = () => {
               {' '}
               {content.apRef2} {/* Prvý Jánov 1:1-4 */}
             </span>
-            <br />
+          </p>
+          <p className='mt-2'>
             {content.apText1}
             {/* The apostles testified about Jesus, Whom they physically saw, knew, met after His death, and Whom they saw taken up into heaven. */}
           </p>
@@ -85,7 +86,6 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse4}
               {/* Ale zamordovali ste Vodcu života, ktorého Boh vzkriesil z mŕtvych;
               a my sme svedkami toho. */}
@@ -94,9 +94,10 @@ const Apostoli = () => {
               {' '}
               {content.apRef4} {/* Skutky apoštolov 3:15 */}
             </span>
+          </p>
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse5}
               {/* Vedzte teda vy všetci, aj všetok ľud izraelský, že tento človek
               stojí pred vami zdravý v mene Ježiša Krista Nazaretského, ktorého
@@ -108,7 +109,6 @@ const Apostoli = () => {
             </span>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse6}
               {/* Apoštolovia však veľmi mocne vydávali svedectvo o vzkriesení Pána
               Ježiša a veľká milosť spočinula na nich na všetkých.{' '} */}
@@ -117,9 +117,10 @@ const Apostoli = () => {
               {' '}
               {content.apRef6} {/* Skutky apoštolov 4:33 */}
             </span>
+          </p>
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse7}
               {/* Boh našich otcov vzkriesil Ježiša, ktorého ste vy zamordovali, keď
               ste Ho povesili na drevo. Toho Boh povýšil svojou pravicou za
@@ -131,9 +132,11 @@ const Apostoli = () => {
               {' '}
               {content.apRef7} {/* Skutky apoštolov 5:30-32 */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse8}
               {/* Ale neprestali deň čo deň učiť v chráme a po domoch a zvestovať
               evanjelium Krista Ježiša.{' '} */}
@@ -154,9 +157,11 @@ const Apostoli = () => {
               {' '}
               {content.apRef9} {/* Skutky apoštolov 10:39-40 */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse10}
               {/* Až na jediný výkrik, ktorý som zavolal, stojac medzi nimi: Pre
               vzkriesenie z mŕtvych ma dnes súdite.{' '} */}
@@ -204,9 +209,11 @@ const Apostoli = () => {
               {' '}
               {content.apRef12} {/* Skutky apoštolov 28:31  */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse13}
               {/* Amen, amen, hovorím ti: Ak sa niekto nenarodí z vody a z Ducha,
               nemôže vojsť do Božieho kráľovstva. Na to mu Nikodém odpovedal:
@@ -230,17 +237,17 @@ const Apostoli = () => {
           <p>
             <span className='italic'> {content.apVerse15}</span>
             <span className='text-[15px]'> {content.apRef15}</span>
+          </p>
 
-            <span className='italic'>
-              {' '}
-              <br />
-              {content.apVerse14}
-            </span>
+          <p className='mt-2'>
+            <span className='italic'>{content.apVerse14}</span>
             <span className='text-[15px]'> {content.apRef14}</span>
             {content.apText4}
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse16}
               {/* Predvolali si ich teda a prikázali im, aby nikdy viac ani
               nehovorili ani neučili v mene Ježišovom.{' '} */}
@@ -314,9 +321,11 @@ const Apostoli = () => {
             {content.apText8}
             {/* Spasenie hriešnika je možné len skrze vieru v Ježiša Krista a
             poslušnosti Jeho Slovu. */}
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse20}
               {/* Zjavuje sa v ňom zaiste spravodlivosť Božia z viery pre vieru, ako
               je napísané: Spravodlivý z viery bude žiť.{' '} */}
@@ -346,11 +355,12 @@ const Apostoli = () => {
               {' '}
               {content.apRef21} {/* Rimanom 1:9  */}
             </span>
-            <br />
+
             {content.apText10}
-            <br />
+          </p>
+          <p className='mt-2'>
             {content.apText10a}
-            {/* Pavol slúži Bohu tým, že zvestuje evanjelium Jeho Syna. Ak by
+            {/*  Ak by
             učeníci nehlásali to, čoho boli očitými svedkami, porušili by príkaz
             Boha. */}
             <span className='italic'>
@@ -364,9 +374,10 @@ const Apostoli = () => {
               {' '}
               {content.apRef22} {/* Skutky apoštolov 4:19-20 */}
             </span>
+          </p>
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.apVerse23}
               {/* Čudujem sa, že od Toho, ktorý vás povolal v milosti Kristovej, sa
               tak rýchlo odvraciate k inému evanjeliu, ktoré ani nie je iné

@@ -39,9 +39,11 @@ const Pan = () => {
               {' '}
               {content.pRef2} {/* Skutky apoštolov 10:36 */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.pVerse3}
               {/* Ktorý je podľa Ducha svätosti ustanovený od vzkriesenia z mŕtvych
               ako Boží Syn s mocou - o Ježišovi Kristovi, našom Pánovi.{' '} */}
@@ -54,9 +56,11 @@ const Pan = () => {
             {content.pText2}
             {/* V liste rímskej cirkvi Pavol apoštol prehlasuje Ježiša za jeho Pána
             ako aj za Pána veriacich v rímskej cirkvi. */}
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.pVerse4}
               {/* Ani vysokosť, ani hlbokosť, ani nijaké iné stvorenstvá nemôžu nás
               odlúčiť od lásky Božej, ktorá je v Kristovi Ježišovi, našom
@@ -113,9 +117,11 @@ const Pan = () => {
             {content.pText6}
             {/* Pána Ježiša máme teda poslúchať s rovnakou bázňou, chvením ako
             poslúcha verný otrok svojho telesného pána. */}
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.pVerse6}
               {/* Ujal sa ho však Barnabáš a uvedúc ho k apoštolom, rozpovedal im,
               ako na ceste videl Pána a že hovoril s Ním, aj ako neohrozene
@@ -141,9 +147,11 @@ const Pan = () => {
               {' '}
               {content.pRef7} {/* Skutky 20:24  */}
             </span>
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.pVerse8}
               {/* S mužmi, ktorí životy nasadili pre meno nášho Pána Ježiša Krista.{' '} */}
             </span>
@@ -155,8 +163,10 @@ const Pan = () => {
             {/* Akým Pánom im bol, že boli ochotní zomrieť za Jeho meno? To nemohlo
             byť tak, že uctievajú Boha Otca a nemajú žiaden vzťah s Ježišom
             Kristom. Nemali by žiadnu motiváciu za Neho riskovať. */}
+          </p>
+
+          <p className='mt-2'>
             <span className='italic'>
-              <br />
               {content.pVerse9}
               {/* Alebo či sa snažím ľuďom ľúbiť? Ak by som sa ešte (chcel) ľúbiť
               ľuďom, nebol by som služobníkom Kristovým.{' '} */}
@@ -171,7 +181,6 @@ const Pan = () => {
             neho požaduje. Sluha Ježiša Krista preto musí byť so svojím Pánom v
             neustálom kontakte. */}
           </p>
-
           <h2 className='text-center text-[25px] mt-8'>
             {content.pSub4}
             {/* Ako kontaktovať Pána? */}
@@ -198,9 +207,10 @@ const Pan = () => {
             {/* Božie Slovo obsahuje Božiu vôľu pre človeka a tak prostredníctvom
             neho môže nasledovník Pána spoznať svojho Pána a spoznať ako sa má
             správať a čo vo svojom živote robiť. */}
+          </p>
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.pVerse11}
               {/* Neprestajne sa modlite! */}
             </span>
@@ -213,7 +223,6 @@ const Pan = () => {
             neustále, pretože on sám tak robil. Bol v kontakte so svojím Pánom,
             aby prijímal inštrukcie od Neho a mal s Ním spoločenstvo. */}
           </p>
-
           <h2 className='text-center text-[25px] mt-8'>
             {content.pSub5}
 
@@ -257,9 +266,10 @@ const Pan = () => {
               {' '}
               {content.pRef14} {/* Ján 10:30 */}
             </span>
+          </p>
+          <p className='mt-2'>
             <span className='italic'>
               {' '}
-              <br />
               {content.pVerse15}
               {/* Preto, ako ste prijali Krista Ježiša, Pána, v Ňom žite.{' '} */}
             </span>
