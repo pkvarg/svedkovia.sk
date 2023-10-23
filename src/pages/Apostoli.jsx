@@ -40,15 +40,14 @@ const Apostoli = () => {
               od rána až do večera vykladal, svedčil o kráľovstve Božom a
               presviedčal ich o Ježišovi z Mojžišovho Zákona a z Prorokov.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {content.apRef1}
               {/* Skutky apoštolov 28:23  */}
             </span>
           </p>
-          <h2 className='text-center text-[25px]'>
+          {/* <h2 className='text-center text-[25px]'>
             {content.apTitle}
-            {/* Čo hlásali apoštoli? */}
-          </h2>
+          </h2> */}
           <p>
             <span className='italic'>
               {' '}
@@ -62,14 +61,15 @@ const Apostoli = () => {
               s Otcom a s Jeho Synom Ježišom Kristom. Toto vám píšeme, aby naša
               radosť bola úplná. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef2} {/* Prvý Jánov 1:1-4 */}
             </span>
+            <br />
             {content.apText1}
             {/* The apostles testified about Jesus, Whom they physically saw, knew, met after His death, and Whom they saw taken up into heaven. */}
           </p>
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.apSub2}
             {/* Svedčili o vzkriesení Ježiša Krista */}
           </h2>
@@ -79,7 +79,7 @@ const Apostoli = () => {
               {content.apVerse3}
               {/* Tohto Ježiša vzkriesil Boh a my všetci sme svedkami toho. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef3} {/* Skutky apoštolov 2:32 */}
             </span>
@@ -90,7 +90,7 @@ const Apostoli = () => {
               {/* Ale zamordovali ste Vodcu života, ktorého Boh vzkriesil z mŕtvych;
               a my sme svedkami toho. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef4} {/* Skutky apoštolov 3:15 */}
             </span>
@@ -102,7 +102,7 @@ const Apostoli = () => {
               stojí pred vami zdravý v mene Ježiša Krista Nazaretského, ktorého
               ste vy ukrižovali, ale Boh Ho vzkriesil z mŕtvych.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef5} {/* Skutky apoštolov 4:10 */}
             </span>
@@ -113,7 +113,7 @@ const Apostoli = () => {
               {/* Apoštolovia však veľmi mocne vydávali svedectvo o vzkriesení Pána
               Ježiša a veľká milosť spočinula na nich na všetkých.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef6} {/* Skutky apoštolov 4:33 */}
             </span>
@@ -127,7 +127,7 @@ const Apostoli = () => {
               hriechov. A svedkami toho sme my a Duch Svätý, ktorého dal Boh
               tým, čo Ho poslúchajú.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef7} {/* Skutky apoštolov 5:30-32 */}
             </span>
@@ -138,7 +138,7 @@ const Apostoli = () => {
               {/* Ale neprestali deň čo deň učiť v chráme a po domoch a zvestovať
               evanjelium Krista Ježiša.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef8} {/* Skutky apoštolov 5:42 */}
             </span>
@@ -150,7 +150,7 @@ const Apostoli = () => {
               Ho aj zamordovali, povesiac Ho na drevo. Toho Boh vzkriesil v
               tretí deň a dal Mu zjavovať sa.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef9} {/* Skutky apoštolov 10:39-40 */}
             </span>
@@ -161,7 +161,7 @@ const Apostoli = () => {
               {/* Až na jediný výkrik, ktorý som zavolal, stojac medzi nimi: Pre
               vzkriesenie z mŕtvych ma dnes súdite.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef10} {/* Skutky apoštolov 24:21 */}
             </span>
@@ -170,7 +170,7 @@ const Apostoli = () => {
             Kristovi. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.apSub3}
             {/* Svedčili o pokání skrze vieru v Ježiša Krista */}
           </h2>
@@ -182,13 +182,13 @@ const Apostoli = () => {
               vstať z mŕtvych a že sa musí kázať v Jeho mene pokánie na
               odpustenie hriechov všetkým národom, počnúc od Jeruzalema. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef11} {/* Lukáš 24:46-47  */}
             </span>
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.apSub4}
             {/* Svedčili o kráľovstve Božom, do ktorého vstúpi človek len skrze
             vieru v Ježiša Krista */}
@@ -200,7 +200,7 @@ const Apostoli = () => {
               {/* A celkom smelo a bez prekážky kázal o kráľovstve Božom a učil o
               Pánovi Ježišovi Kristovi.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef12} {/* Skutky apoštolov 28:31  */}
             </span>
@@ -214,7 +214,7 @@ const Apostoli = () => {
               musí byť vyzdvihnutý aj Syn človeka, aby každý, kto v neho verí,
               mal večný život.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef13} {/* Ján 3:5,9,14-15  */}
             </span>
@@ -222,35 +222,22 @@ const Apostoli = () => {
             {/* Kázanie o kráľovstve je opäť len kázanie o Ježišovi Kristovi. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.apSub5}
             {/* Svedčili o osobe Ježiša Krista */}
           </h2>
 
           <p>
-            <span className='italic'>
-              {' '}
-              {content.apVerse14}
-              {/* S mužmi, ktorí životy nasadili pre meno nášho Pána Ježiša Krista.{' '} */}
-            </span>
-            <span className='text-[20px]'>
-              {' '}
-              {content.apRef14} {/* Skutky apoštolov 15:26 */}
-            </span>
-            {content.apText4}
-            {/* Tak zvestovali evanjelium, že riskovali vlastné životy za svedectvo
-            o Pánovi Ježišovi. */}
+            <span className='italic'> {content.apVerse15}</span>
+            <span className='text-[15px]'> {content.apRef15}</span>
+
             <span className='italic'>
               {' '}
               <br />
-              {content.apVerse15}
-              {/* Ale niektorí z nich boli z Cypru a z Kyrény, a keď prišli do
-              Antiochie, hovorili aj Grékom a zvestovali Pána Ježiša.{' '} */}
+              {content.apVerse14}
             </span>
-            <span className='text-[20px]'>
-              {' '}
-              {content.apRef15} {/* Skutky apoštolov 11:20 */}
-            </span>
+            <span className='text-[15px]'> {content.apRef14}</span>
+            {content.apText4}
             <span className='italic'>
               {' '}
               <br />
@@ -258,7 +245,7 @@ const Apostoli = () => {
               {/* Predvolali si ich teda a prikázali im, aby nikdy viac ani
               nehovorili ani neučili v mene Ježišovom.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef16} {/* Skutky apoštolov 4:18 */}
             </span>
@@ -266,7 +253,7 @@ const Apostoli = () => {
             {/* Čo teda vadilo ich protivníkom? Meno Ježiš. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.apSub6}
             {/* Svedčili o tom, čo hovoril Ježiš Kristus */}
           </h2>
@@ -281,13 +268,13 @@ const Apostoli = () => {
               mestách, v ktorých sme zvestovali slovo Pánovo, ponavštevujeme
               bratov, ako sa majú.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef17} {/* Skutky apoštolov 15:36 */}
             </span>
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.apSub7}
             {/* Ako apoštoli hlásali evanjelium? */}
           </h2>
@@ -299,7 +286,7 @@ const Apostoli = () => {
               {/* Ale prijmite moc Ducha Svätého, ktorý zostúpi na vás, a budete mi
               svedkami.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef18} {/* Skutky apoštolov 1:8  */}
             </span>
@@ -308,7 +295,7 @@ const Apostoli = () => {
             tom, čo videli, ale v moci Ducha Svätého. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.apSub8}
             {/* Čo je dôkazom pravého evanjelia? */}
           </h2>
@@ -320,7 +307,7 @@ const Apostoli = () => {
               {/* Veď ja sa nehanbím za evanjelium (Kristovo): lebo mocou Božou je
               ono na spasenie každému veriacemu, najprv Židovi, a aj Grékovi.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef19} {/* Rimanom 1:16 */}
             </span>
@@ -334,7 +321,7 @@ const Apostoli = () => {
               {/* Zjavuje sa v ňom zaiste spravodlivosť Božia z viery pre vieru, ako
               je napísané: Spravodlivý z viery bude žiť.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef20} {/* Rimanom 1:17  */}
             </span>
@@ -343,7 +330,7 @@ const Apostoli = () => {
             Božia spravodlivosť. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.apSub9}
             {/* Nehlásať vzkriesenie je porušením Božieho nariadenia */}
           </h2>
@@ -355,10 +342,11 @@ const Apostoli = () => {
               {/* Veď Boh, ktorému slúžim svojím duchom zvesťou evanjelia Jeho Syna,
               je mi svedkom, ako neprestajne spomínam na vás.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef21} {/* Rimanom 1:9  */}
             </span>
+            <br />
             {content.apText10}
             <br />
             {content.apText10a}
@@ -372,7 +360,7 @@ const Apostoli = () => {
               Bohom poslúchať viac vás ako Boha! Lebo my nemôžeme nehovoriť o
               tom, čo sme videli a počuli.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef22} {/* Skutky apoštolov 4:19-20 */}
             </span>
@@ -389,13 +377,13 @@ const Apostoli = () => {
               znovu hovorím: ak vám niekto zvestuje (iné) evanjelium miesto
               toho, ktoré ste prijali, - nech je prekliaty!{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.apRef23}
               {/* Galatským 1:6-9 */}
             </span>
             <span className='italic'> </span>
-            <span className='text-[20px]'></span>
+            <span className='text-[15px]'></span>
           </p>
         </div>
         <Footer />

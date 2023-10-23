@@ -44,7 +44,7 @@ const Vecera = () => {
               podobne (vzal) po večeri kalich a hovoril: Tento kalich je nová
               zmluva v mojej krvi, ktorá sa vylieva za vás. */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef1} {/* Lukáš 22:19-20 */}
               </span>
@@ -56,13 +56,13 @@ const Vecera = () => {
                 {/* Isteže preto sa unúvame a zápasíme, lebo máme nádej v živom Bohu,
               ktorý je Spasiteľom všetkých ľudí, najmä veriacich. */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef2} {/* Prvý Timotejovi 4:10 */}
               </span>
             </p>
 
-            <h2 className='text-center text-[25px] mt-4'>
+            <h2 className='text-center text-[25px] mt-8'>
               {content.sSub2}
               {/* Chceš svedčiť o Jeho smrti? */}
             </h2>
@@ -74,7 +74,7 @@ const Vecera = () => {
                 {/* Lebo kedykoľvek by ste jedli tento chlieb a pili z kalicha,
               zvestujete smrť Pánovu, kým nepríde! */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef3} {/* Prvý Korintským 11:26 */}
               </span>
@@ -83,16 +83,17 @@ const Vecera = () => {
             prijal. Preto prijímať chlieb a víno má každý, v ktorom Duch Pánov
             prebýva. */}
               <span className='italic'>
+                {' '}
                 {content.sVerse4}
                 {/* Kto vyznáva Syna, má aj Otca. */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef4} {/* Prvý Jánov 2:23 */}
               </span>
             </p>
 
-            <h2 className='text-center text-[25px] mt-4'>
+            <h2 className='text-center text-[25px] mt-8'>
               {content.sSub3}
               {/* Chceš mať večný život?  */}
             </h2>
@@ -105,12 +106,12 @@ const Vecera = () => {
               telo a pije moju krv, má večný život, a ja ho vzkriesim v posledný
               deň. Lebo moje telo je pravý pokrm a moja krv je pravý nápoj.{' '} */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef5} {/* Ján 6:53-55 */}
               </span>
             </p>
-            <h2 className='text-center text-[25px] mt-4'>
+            <h2 className='text-center text-[25px] mt-8'>
               {content.sSub4}
               {/* Chceš byť v duchovnom spojení s Ježišom? */}
             </h2>
@@ -122,12 +123,12 @@ const Vecera = () => {
               mňa poslal živý Otec a ja žijem skrze Otca, aj ten, kto mňa je,
               bude žiť skrze mňa.{' '} */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef6} {/* Ján 6:56-57  */}
               </span>
             </p>
-            <h2 className='text-center text-[25px] mt-4'>
+            <h2 className='text-center text-[25px] mt-8'>
               {content.sSub5}
               {/* Chceš mať podiel na Ježišovi?{' '} */}
             </h2>
@@ -138,7 +139,7 @@ const Vecera = () => {
                 {/* Potom nalial vodu do umývadla, začal umývať učeníkom nohy a
               utierať zásterou, ktorou bol opásaný.{' '} */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef7} {/* Ján 13:5 */}
               </span>
@@ -148,7 +149,7 @@ const Vecera = () => {
                 {/* Povedal Mu Peter: Pane, nikdy mi nebudeš umývať nohy! Odpovedal mu
               Ježiš: Ak ťa neumyjem, nemáš so mnou podiel. */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef8} {/* Ján 13:8 */}
               </span>
@@ -161,7 +162,7 @@ const Vecera = () => {
                 {/* Keď teda ja, Pán a Majster, umyl som vám nohy, aj vy ste povinní
               navzájom si umývať nohy.{' '} */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef10} {/* Ján 13:14 */}
               </span>
@@ -170,7 +171,7 @@ const Vecera = () => {
               {/* Každý, kto má Ježiša Krista za svojho Pána, má povinnosť konať tento
             úkon svojmu spolubratovi. */}
             </p>
-            <h2 className='text-center text-[25px] mt-4'>
+            <h2 className='text-center text-[25px] mt-8'>
               {content.sSub6}
               {/* Nezriekaj sa blahoslavenstva{' '} */}
             </h2>
@@ -183,11 +184,12 @@ const Vecera = () => {
               naplnilo Písmo: Ten, čo jedol môj chlieb, pozdvihol pätu proti
               mne.{' '} */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef11} {/* Ján 13:17-18 */}
               </span>
-              {content.sText6}{' '}
+              {content.sText6} <br />
+              {content.sText7}{' '}
               {/* Ten, koho Ježiš Kristus je Pánom, si pripomína Jeho smrť a umýva
             nohy spolubratom, je blahoslavený. Avšak nie ten, koho Ježiš Kristus
             nie je Pánom, je vo vzbure ako bol aj Judáš alebo ten, kto
@@ -200,7 +202,7 @@ const Vecera = () => {
               človeče, a tak jedz z chleba a pi z kalicha; lebo kto nehodne je a
               pije, odsúdenie si je a pije, lebo nerozoznáva telo Pánovo.{' '} */}
               </span>
-              <span className='text-[20px]'>
+              <span className='text-[15px]'>
                 {' '}
                 {content.sRef12}
                 {/* Prvý Korintským 11:27-29 */}

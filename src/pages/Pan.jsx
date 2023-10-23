@@ -28,29 +28,6 @@ const Pan = () => {
           {/* Koho Pánom je Ježiš? */}
         </h1>
         <div className='py-8 mx-4 lg:mx-8'>
-          <h2 className='text-center text-[25px]'>
-            {content.pSub1}
-            {/* Kto ustanovil Ježiša za Pána? */}
-          </h2>
-          <p>
-            <span className='italic'>
-              {' '}
-              {content.pVerse1}
-              {/* Nech teda vie bezpečne celý dom izraelský, že aj Pánom, aj Kristom
-              učinil Boh toho Ježiša, ktorého ste vy ukrižovali. */}
-            </span>
-            <span className='text-[20px]'>
-              {' '}
-              {content.pRef1} {/* Skutky apoštolov 2:36  */}
-            </span>
-            {content.pText1}
-            {/* Boh ustanovil Ježiša Krista za Pána. */}
-          </p>
-          <h2 className='text-center text-[25px] mt-4'>
-            {' '}
-            {content.pSub2}
-            {/* Koho Pánom je Ježiš?{' '} */}
-          </h2>
           <p>
             <span className='italic'>
               {' '}
@@ -58,7 +35,7 @@ const Pan = () => {
               {/* To slovo, ktoré poslal synom izraelským, keď dal zvestovať pokoj
               skrze Ježiša Krista - a On je Pánom všetkých.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef2} {/* Skutky apoštolov 10:36 */}
             </span>
@@ -69,10 +46,11 @@ const Pan = () => {
               {/* Ktorý je podľa Ducha svätosti ustanovený od vzkriesenia z mŕtvych
               ako Boží Syn s mocou - o Ježišovi Kristovi, našom Pánovi.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef3} {/* Rimanom 1:4  */}
             </span>
+            <br />
             {content.pText2}
             {/* V liste rímskej cirkvi Pavol apoštol prehlasuje Ježiša za jeho Pána
             ako aj za Pána veriacich v rímskej cirkvi. */}
@@ -84,14 +62,35 @@ const Pan = () => {
               odlúčiť od lásky Božej, ktorá je v Kristovi Ježišovi, našom
               Pánovi. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef4} {/* Rimanom 8:39 */}
             </span>
             {content.pText4}
             {/* Láska Božia je v našom Pánovi.{' '} */}
           </p>
-          <h2 className='text-center text-[25px] mt-4'>
+
+          <h2 className='text-center text-[25px]'>
+            {content.pSub1}
+            {/* Kto ustanovil Ježiša za Pána? */}
+          </h2>
+          <p>
+            <span className='italic'>
+              {' '}
+              {content.pVerse1}
+              {/* Nech teda vie bezpečne celý dom izraelský, že aj Pánom, aj Kristom
+              učinil Boh toho Ježiša, ktorého ste vy ukrižovali. */}
+            </span>
+            <span className='text-[15px]'>
+              {' '}
+              {content.pRef1} {/* Skutky apoštolov 2:36  */}
+            </span>
+            <br />
+            {content.pText1}
+            {/* Boh ustanovil Ježiša Krista za Pána. */}
+          </p>
+
+          <h2 className='text-center text-[25px] mt-8'>
             {content.pSub3}
             {/* Pána treba poslúchať */}
           </h2>
@@ -107,7 +106,7 @@ const Pan = () => {
               {/* Otroci, poslúchajte svojich telesných pánov s bázňou a chvením v
               úprimnosti srdca ako Krista. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef5} {/* Efezským 6:5  */}
             </span>
@@ -123,7 +122,7 @@ const Pan = () => {
               kázal v Damasku v mene Ježišovom. A prebýval s nimi v Jeruzaleme,
               kázal neohrozene v mene Pánovom. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef6} {/* Skutky 9:27-28 */}
             </span>
@@ -138,7 +137,7 @@ const Pan = () => {
               službu, ktorú som prijal od Pána Ježiša: svedčiť o evanjeliu
               milosti Božej.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef7} {/* Skutky 20:24  */}
             </span>
@@ -148,7 +147,7 @@ const Pan = () => {
               {content.pVerse8}
               {/* S mužmi, ktorí životy nasadili pre meno nášho Pána Ježiša Krista.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef8} {/* Skutky 15:26 */}
             </span>
@@ -162,7 +161,7 @@ const Pan = () => {
               {/* Alebo či sa snažím ľuďom ľúbiť? Ak by som sa ešte (chcel) ľúbiť
               ľuďom, nebol by som služobníkom Kristovým.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef9} {/* Galatským 1:10 */}
             </span>
@@ -173,7 +172,7 @@ const Pan = () => {
             neustálom kontakte. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.pSub4}
             {/* Ako kontaktovať Pána? */}
           </h2>
@@ -191,7 +190,7 @@ const Pan = () => {
               ako zábudlivý poslucháč, ale ako činiteľ skutku, ten bude
               blahoslavený vo svojom konaní.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef10} {/* Jakub 1:21-25  */}
             </span>
@@ -205,7 +204,7 @@ const Pan = () => {
               {content.pVerse11}
               {/* Neprestajne sa modlite! */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef11} {/* Prvý Tesalonickým 5:17  */}
             </span>
@@ -215,7 +214,7 @@ const Pan = () => {
             aby prijímal inštrukcie od Neho a mal s Ním spoločenstvo. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.pSub5}
 
             {/* Pavol apoštol mal vzťah so svojím Pánom{' '} */}
@@ -227,10 +226,10 @@ const Pan = () => {
               {/* Všetkým od Boha milovaným, povolaným svätým v Ríme: Milosť vám a
               pokoj od Boha, nášho Otca, a od Pána Ježiša Krista!{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
-              {content.pRef11} {/* Rimanom 1:7 */}
-            </span>
+              {content.pRef12} {/* Rimanom 1:7 */}
+            </span>{' '}
             {content.pText12}
             {/* Pavol prijímal pokoj od Boha aj od Ježiša a ten potom žehnal
             veriacim bratom a sestrám. Ale Božie Slovo vylučuje slúžiť dvom
@@ -242,7 +241,7 @@ const Pan = () => {
               nenávidieť, a druhého milovať; buď sa jedného bude pridŕžať, a
               druhým pohrdne. Nemôžete slúžiť Bohu aj mamone. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef13} {/* Lukáš 16:13 */}
             </span>
@@ -250,10 +249,11 @@ const Pan = () => {
             {/* Len Boh je Ten správny Pán. Ale apoštol Pavol uvádza Ježiša Krista
             ako Pána. A je to vporiadku, pretože Ježiš hovorí: */}
             <span className='italic'>
+              {' '}
               {content.pVerse14}
               {/* Ja a Otec sme jedno. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef14} {/* Ján 10:30 */}
             </span>
@@ -263,7 +263,7 @@ const Pan = () => {
               {content.pVerse15}
               {/* Preto, ako ste prijali Krista Ježiša, Pána, v Ňom žite.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef15} {/* Kolosenským 2:6 */}
             </span>
@@ -271,10 +271,10 @@ const Pan = () => {
             {/* Apoštol Pavol žil v Ježišovi Kristovi. Ale ako je to možné? */}
             <span className='italic'>
               {' '}
-              {content.pText16}
+              {content.pVerse16}
               {/* Kto sa pripojí k Pánovi, je s Ním jeden Duch.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.pRef16} {/* Prvý Korintským 6:17 */}
             </span>

@@ -28,10 +28,6 @@ const Jezis = () => {
           {/* Je Ježiš Boh? */}
         </h1>
         <div className='py-8 mx-4 lg:mx-8'>
-          <h2 className='text-center text-[25px]'>
-            {content.jSub1}
-            {/* Je Ježiš Boh? */}
-          </h2>
           <p>
             {content.jText1}
             {/* Byť Bohom znamená mať jedinečné božské vlastnosti, ktoré nemá žiadna
@@ -39,7 +35,7 @@ const Jezis = () => {
             prislúchajú len Bohu a ktoré má človek zakázané prisudzovať
             ktorejkoľvek stvorenej bytosti. */}
           </p>
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub2}
             {/* Len Boh môže stvoriť{' '} */}
           </h2>
@@ -48,7 +44,7 @@ const Jezis = () => {
               {content.jVerse1}
               {/* Na počiatku stvoril Boh nebo a zem. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef1} {/* Genesis 1:1 */}
             </span>
@@ -59,7 +55,7 @@ const Jezis = () => {
               {/* Ním (Slovom, ktoré sa stalo telom) povstalo všetko a bez Neho
               nepovstalo nič, čo povstalo.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef2} {/* Ján 1:3 */}
             </span>
@@ -69,7 +65,7 @@ const Jezis = () => {
               {/* Bolo vo svete a svet Ním povstal, ale svet Ho nepoznal. Do svojho
               vlastného prišiel, a Jeho vlastní Ho neprijali.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef3} {/* Ján 1:10-11 */}
             </span>
@@ -77,7 +73,7 @@ const Jezis = () => {
             {/* Svet Ježišom povstal, bol Ním stvorený. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub4}
             {/* Len Boha máme uctievať */}
           </h2>
@@ -89,7 +85,7 @@ const Jezis = () => {
               {/* Lebo nesmieš sa klaňať inému bohu, pretože Hospodin, ktorého meno
               je Žiarlivý, je naozaj žiarlivý Boh.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRefx5} {/* Exodus 34:14  */}
             </span>
@@ -101,7 +97,7 @@ const Jezis = () => {
               ctili Syna tak, ako ctia Otca. Kto nectí Syna, nectí ani Otca,
               ktorý Ho poslal. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRefxx5} {/* Ján 5:22-23 */}
             </span>
@@ -109,7 +105,7 @@ const Jezis = () => {
             {/* Máme vzdať česť a slávu Ježišovi, inak si nectíme Boha. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub5}
             {/* Len Bohu sa má klaňať Jeho stvorenie */}
           </h2>
@@ -122,7 +118,7 @@ const Jezis = () => {
               Som spoluslužobníkom tvojím, tvojich bratov, prorokov a tých,
               ktorí zachovávajú slová tejto knihy. Bohu sa klaňaj!{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef5} {/* Zjavenie Jána 22:8-9  */}
             </span>
@@ -133,7 +129,7 @@ const Jezis = () => {
               {/* A keď zase uvedie Prvorodeného na svet, hovorí: Nech padnú pred
               Ním na kolená všetci anjeli Boží! */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef6} {/* Židom 1:6 */}
             </span>
@@ -141,7 +137,7 @@ const Jezis = () => {
             {/* Božie stvorenie sa má klaňať Ježišovi. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub6}
             {/* Len Boh môže vládnuť nad všetkým */}
           </h2>
@@ -152,7 +148,7 @@ const Jezis = () => {
               {content.jVerse7}
               {/* Najvyšší vládne nad kráľovstvom ľudí a dáva ho, komu chce. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef7} {/* Daniel 4:29 */}
             </span>
@@ -163,7 +159,7 @@ const Jezis = () => {
               {/* Ježiš pristúpil a povedal im: „Daná mi je všetka moc na nebi aj na
               zemi. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef8} {/* Matúš 28:18 */}
             </span>
@@ -171,7 +167,7 @@ const Jezis = () => {
             {/* Boh zveril Ježišovi všetku vládu.{' '} */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub7}
             {/* Ježiš nie je anjel */}
           </h2>
@@ -179,29 +175,29 @@ const Jezis = () => {
           <p>
             <span className='italic'>
               {' '}
-              {content.jVerse10}
+              {content.jVerse9}
               {/* O toľko je dôstojnejší ako anjeli, o koľko ich prevyšuje menom,
               ktoré zdedil. Veď kedy ktorému anjelovi povedal Boh: Syn môj si
               Ty, ja som ťa splodil dnes? A inde: Ja Mu budem otcom a On mi bude
               synom.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
-              {content.jRef10} {/* Židom 1:4-5  */}
+              {content.jRef9} {/* Židom 1:4-5  */}
             </span>
-
+            <br />
             <span className='italic'>
               {' '}
-              {content.jVerse11}
+              {content.jVerse10}
               {/* Lebo nie anjelom podriadil Boh budúci svet, o ktorom hovoríme.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
-              {content.jRef11} {/* Židom 2:5 */}
+              {content.jRef10} {/* Židom 2:5 */}
             </span>
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub8}
             {/* Prorok Izaiáš ho predpovedá ako Boha */}
           </h2>
@@ -214,13 +210,13 @@ const Jezis = () => {
               spočinie kniežatstvo, jeho meno bude: Predivný radca, Mocný Boh,
               Otec večnosti, Knieža pokoja.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef11} {/* Izaiáš 9:5  */}
             </span>
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub9}
             {/* Slovo, ktoré sa stalo telom je Boh */}
           </h2>
@@ -231,7 +227,7 @@ const Jezis = () => {
               {content.jVerse12}
               {/* Na počiatku bolo Slovo a Slovo bolo u Boha a Boh bol to Slovo. */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef12} {/* Ján 1:1 */}
             </span>
@@ -250,7 +246,7 @@ const Jezis = () => {
               na Jeho slávu ako na slávu jednorodeného od Otca, (bolo) plné
               milosti a pravdy.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef13} {/* Ján 1:14  */}
             </span>
@@ -258,7 +254,7 @@ const Jezis = () => {
             {/* Ježiš prišiel v tele na svet, takže On je tým Slovom. */}
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub10}
             {/* Ježiš vyznáva Seba za Boha */}
           </h2>
@@ -270,7 +266,7 @@ const Jezis = () => {
               {/* Boh riekol Mojžišovi: SOM, KTORÝ SOM. Riekol ďalej: Tak povedz
               Izraelcom: Poslal ma k vám SOM.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef14} {/* Exodus 3:14  */}
             </span>
@@ -282,7 +278,7 @@ const Jezis = () => {
               {/* Hovorím vám to už teraz, skôr, ako sa to stane, aby ste uverili,
               keď sa to stane, že ja SOM.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef15} {/* Ján 13:19  */}
             </span>
@@ -293,7 +289,7 @@ const Jezis = () => {
               ja SOM. Ján 8:58 Preto som vám povedal, že umriete v hriechoch,
               lebo ak neuveríte, že ja SOM, umriete v hriechoch.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef16} {/* Ján 8:24 */}
             </span>
@@ -303,13 +299,13 @@ const Jezis = () => {
               {/*  Preto som vám povedal, že umriete v hriechoch,
               lebo ak neuveríte, že ja SOM, umriete v hriechoch.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef17} {/* Ján 8:24 */}
             </span>
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub11}
             {/* Učeník dosvedčuje, že Ježiš je Boh */}
           </h2>
@@ -323,12 +319,12 @@ const Jezis = () => {
               a nebuď neveriaci, ale veriaci. Tomáš mu povedal: Pán môj a Boh
               môj!{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef18} {/* Ján 20:26-28 */}
             </span>
           </p>
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub12}
             {/* Pavol apoštol označuje Ježiša za Boha */}
           </h2>
@@ -339,7 +335,7 @@ const Jezis = () => {
               {/* Ich sú otcovia a z nich je Kristus podľa tela, Boh nad všetkým,
               požehnaný naveky.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef19} {/* Rimanom 9:5 */}
             </span>
@@ -353,7 +349,7 @@ const Jezis = () => {
             </span>
           </p>
 
-          <h2 className='text-center text-[25px] mt-4'>
+          <h2 className='text-center text-[25px] mt-8'>
             {content.jSub13}
             {/* Sám Boh oslovuje Ježiša ako Boha */}
           </h2>
@@ -366,7 +362,7 @@ const Jezis = () => {
               spravodlivosť a nenávidel si neprávosť; preto pomazal Ťa, ó Bože,
               Tvoj Boh olejom veselia nad Tvojich druhov.{' '} */}
             </span>
-            <span className='text-[20px]'>
+            <span className='text-[15px]'>
               {' '}
               {content.jRef20} {/* Židom 1:8-9 */}
             </span>

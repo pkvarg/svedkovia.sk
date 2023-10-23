@@ -69,7 +69,7 @@ const Home = () => {
             pod nebom (než meno Ježiš Kristus), v ktorom by sme mali dôjsť
             spasenia.{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {content.homeRef1}
             {/* Skutky apoštolov 4:12 */}
           </span>
@@ -78,7 +78,7 @@ const Home = () => {
             {content.homeVerse2}
             {/* Lebo jedinou obeťou navždy zdokonalil tých, čo sa dajú posvätiť. */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef2} {/* Židom 10:14 */}
           </span>
@@ -95,7 +95,7 @@ const Home = () => {
             {/* A potom, každý kňaz tam stojí každý deň, koná bohoslužbu, znovu a
             znovu prináša tie isté obete, ktoré nikdy nemôžu zahladiť hriechy.{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef3} {/* Židom 10:11 */}
           </span>
@@ -113,7 +113,7 @@ const Home = () => {
             {/* Budete mi svedkami aj v Jeruzaleme, aj po celom Judsku, aj v Samárii
             a až do posledných končín zeme.{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {content.homeRef4} {/* Skutky apoštolov 1:8 */}
           </span>
         </p>
@@ -125,7 +125,7 @@ const Home = () => {
             {content.homeVerse5}
             {/* Toto je môj milovaný Syn, v ktorom sa mi zaľúbilo; Jeho poslúchajte.{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef5} {/* Matthew 17:5 */}
           </span>
@@ -152,7 +152,7 @@ const Home = () => {
             {/* Toto evanjelium o kráľovstve bude sa zvestovať po celom svete na
             svedectvo všetkým národom, a potom príde koniec. */}{' '}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef6} {/* Matúš 24:14 */}
           </span>
@@ -169,7 +169,7 @@ const Home = () => {
             {content.homeVerse7}
             {/* Čo vieme, hovoríme, a čo sme videli, svedčíme. */}{' '}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef7} {/* Ján 3:11 */}
           </span>
@@ -184,7 +184,7 @@ const Home = () => {
             {/* A Ježiš mu riekol: Pretože si ma videl, uveril si; blahoslavení,
             ktorí nevideli, a predsa uverili. */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef8} {/* Ján 20:29 */}
           </span>
@@ -204,7 +204,7 @@ const Home = () => {
             {/* Lebo milosťou ste spasení skrze vieru. A to nie sami zo seba; je to
             dar Boží. */}{' '}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef9} {/* Efezským 2:8 */}
           </span>
@@ -214,7 +214,7 @@ const Home = () => {
             {/* Ale tým, čo Ho prijali, dal moc stať sa deťmi Božími, tým, čo veria
             v Jeho meno. */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef10} {/* Ján 1:12 */}
           </span>
@@ -243,7 +243,7 @@ const Home = () => {
             V ten deň poznáte, že ja som vo svojom Otcovi, a vy ste vo mne, ako
             ja som vo vás.{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef11} {/* Ján 14:16-20 */}
           </span>
@@ -254,7 +254,7 @@ const Home = () => {
             Ten, ktorý Krista Ježiša vzkriesil z mŕtvych, aj vaše smrteľné telá
             oživí svojím Duchom, prebývajúcim vo vás. */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef12} {/* Rimanom 8:11 */}
           </span>
@@ -266,7 +266,7 @@ const Home = () => {
             {' '}
             {content.homeVerse13} {/* Veď Pán je Duch. */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef13} {/* Druhý Korinťanom 3:17 */}
           </span>
@@ -276,7 +276,7 @@ const Home = () => {
             {/* Vy však nie ste v tele, ale v Duchu, ak Duch Boží prebýva vo vás.
             Ale ak niekto nemá Ducha Kristovho, nie je Jeho. */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef14}
             {/* Rimanom 8:9 */}
@@ -291,7 +291,7 @@ const Home = () => {
             {/* Zákon životodarného Ducha v Kristovi Ježišovi oslobodil ťa totiž od
             zákona hriechu a smrti.{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {content.homeRef15}
             {/* Rimanom 8:2 */}
           </span>
@@ -301,7 +301,7 @@ const Home = () => {
             {/* Nieto teda teraz už odsúdenia tých, čo sú v Kristovi Ježišovi [a
             nechodia podľa tela, ale podľa ducha]. */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef16}
             {/* Rimanom 8:1 */}
@@ -315,7 +315,7 @@ const Home = () => {
             {content.homeVerse17}{' '}
             {/* Lebo všetci, ktorých Duch Boží vedie, sú synovia Boží.{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef17} {/* Rimanom 8:14 */}
           </span>
@@ -329,7 +329,7 @@ const Home = () => {
             {/* Alebo či neviete, že vaše telo je chrámom Ducha Svätého, ktorý je vo
             vás, ktorého máte od Boha, a že nie ste sami svoji?{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef18} {/* Prvý Korinťanom 6:19 */}
           </span>
@@ -348,7 +348,7 @@ const Home = () => {
             {' '}
             {content.homeVerse19} {/* Pán s tvojím duchom! */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef19} {/* Druhý Timotejovi 4:22 */}
           </span>
@@ -383,7 +383,7 @@ const Home = () => {
             {/* Saul, Saul, prečo ma prenasleduješ? A on povedal: Kto si, Pane?
             Odpovedal mu: Ja som Ježiš, ktorého ty prenasleduješ.{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef20} {/* Skutky apoštolov 9:4-5 */}
           </span>
@@ -397,7 +397,7 @@ const Home = () => {
             svätým v Jeruzaleme; aj tu má moc od veľkňazov, aby poviazal
             všetkých, ktorí vzývajú Tvoje meno.{' '} */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef21} {/* Skutky apoštolov 9:13-14 */}
           </span>
@@ -417,7 +417,7 @@ const Home = () => {
             {/* Riekol mu Pán: Len choď, lebo on mi je vyvolenou nádobou, aby niesol
             moje meno pred pohanov, aj pred kráľov a pred synov izraelských. */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef22} {/* Skutky apoštolov 9:15 */}
           </span>
@@ -430,7 +430,7 @@ const Home = () => {
             ktorej si prišiel, poslal ma, aby si zase videl a bol naplnený
             Duchom Svätým. */}
           </span>
-          <span className='text-[20px]'>
+          <span className='text-[15px]'>
             {' '}
             {content.homeRef23}
             {/* Skutky apoštolov 9:17 */}
