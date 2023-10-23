@@ -25,7 +25,7 @@ const HeaderHome = ({ language, setLanguage }) => {
               <LanguageBar language={language} setLanguage={setLanguage} />
             </div>
 
-            <div className='flex items-center justify-between py-3 hidden'>
+            <div className='flex items-center justify-between py-3 lg:hidden'>
               <a className='text-[30px] font-medium text-brown3' href='/'>
                 {content.headerTitle}
               </a>
