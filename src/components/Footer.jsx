@@ -66,24 +66,24 @@ const Footer = () => {
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
           </a>
-          <p className='hidden lg:flex pb-4'>|</p>
+          {/* <p className='hidden lg:flex pb-4'>|</p> */}
 
-          {language === 'slovak' && (
+          {/* {language === 'slovak' && (
             <a href='https://jwfakty.sk' target='_blank'>
               jwfakty.sk
             </a>
-          )}
+          )} */}
 
-          {language === 'czech' && (
+          {/* {language === 'czech' && (
             <a href='https://jwfakty.sk' target='_blank'>
               jwfakty.sk
             </a>
-          )}
-          {language === 'english' && (
+          )} */}
+          {/* {language === 'english' && (
             <a href='https://jwfacts.com' target='_blank'>
               jwfacts.com
             </a>
-          )}
+          )} */}
         </div>
         <div className='flex justify-center mt-2'>
           <a href='https://pictusweb.sk'>
