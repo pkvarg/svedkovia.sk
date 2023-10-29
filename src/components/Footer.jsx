@@ -62,7 +62,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className='flex flex-row gap-2 items-center justify-center mt-8 lg:mt-0 font-bold'>
+        <div className='flex flex-row gap-2 items-center justify-center mt-8 lg:mt-4 font-bold'>
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
           </a>
