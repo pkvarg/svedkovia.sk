@@ -28,6 +28,29 @@ const Apostoli = () => {
           {/* Čo hlásali apoštoli */}
         </h1>
         <div className='py-8 mx-4 lg:mx-8'>
+          <p>
+            <span className='italic'>
+              {' '}
+              {content.apVerse2}
+              {/* Čo bolo od počiatku, čo sme počuli, čo sme videli na vlastné oči,
+              na čo sme pozerali a čoho sa nám dotýkali ruky, (o tom svedčíme,
+              totiž) o Slove života. A ten život sa zjavil, my sme (Ho) videli,
+              svedčíme (o Ňom) a zvestujeme vám večný život, ktorý bol u Otca a
+              zjavil sa nám. Čo sme (teda) videli a počuli, zvestujeme aj vám,
+              aby ste aj vy mali spoločenstvo s nami. Naše spoločenstvo aby bolo
+              s Otcom a s Jeho Synom Ježišom Kristom. Toto vám píšeme, aby naša
+              radosť bola úplná. */}
+            </span>
+            <span className='text-[15px]'>
+              {' '}
+              {content.apRef2} {/* Prvý Jánov 1:1-4 */}
+            </span>
+          </p>
+          <p className='mt-2'>
+            {content.apText1}
+            {/* The apostles testified about Jesus, Whom they physically saw, knew, met after His death, and Whom they saw taken up into heaven. */}
+          </p>
+
           <h2 className='text-center text-[25px] mt-8'>
             {content.apSub2}
             {/* Svedčili o vzkriesení Ježiša Krista */}
@@ -199,7 +222,7 @@ const Apostoli = () => {
 
           <p className='mt-2'>
             <span className='italic'>{content.apVerse14}</span>
-            <span className='text-[15px]'> {content.apRef14}</span>
+            <span className='text-[15px]'> {content.apRef14}</span>{' '}
             {content.apText4}
           </p>
 
@@ -259,28 +282,6 @@ const Apostoli = () => {
           {/* <h2 className='text-center text-[25px]'>
             {content.apTitle}
           </h2> */}
-          <p>
-            <span className='italic'>
-              {' '}
-              {content.apVerse2}
-              {/* Čo bolo od počiatku, čo sme počuli, čo sme videli na vlastné oči,
-              na čo sme pozerali a čoho sa nám dotýkali ruky, (o tom svedčíme,
-              totiž) o Slove života. A ten život sa zjavil, my sme (Ho) videli,
-              svedčíme (o Ňom) a zvestujeme vám večný život, ktorý bol u Otca a
-              zjavil sa nám. Čo sme (teda) videli a počuli, zvestujeme aj vám,
-              aby ste aj vy mali spoločenstvo s nami. Naše spoločenstvo aby bolo
-              s Otcom a s Jeho Synom Ježišom Kristom. Toto vám píšeme, aby naša
-              radosť bola úplná. */}
-            </span>
-            <span className='text-[15px]'>
-              {' '}
-              {content.apRef2} {/* Prvý Jánov 1:1-4 */}
-            </span>
-          </p>
-          <p className='mt-2'>
-            {content.apText1}
-            {/* The apostles testified about Jesus, Whom they physically saw, knew, met after His death, and Whom they saw taken up into heaven. */}
-          </p>
 
           <h2 className='text-center text-[25px] mt-8'>
             {content.apSub7}
@@ -356,9 +357,8 @@ const Apostoli = () => {
               {' '}
               {content.apRef21} {/* Rimanom 1:9  */}
             </span>
-
-            {content.apText10}
           </p>
+          <p className='mt-2'>{content.apText10}</p>
           <p className='mt-2'>
             {content.apText10a}
             {/*  Ak by
